@@ -1,6 +1,8 @@
+import { useState } from 'react';
 import Link from 'next/link';
 import styled from 'styled-components';
 
+import { CgMenu } from 'react-icons/cg';
 import { FaRegAddressCard } from 'react-icons/fa';
 import { BiStoreAlt } from 'react-icons/bi';
 import { GiSecretBook } from 'react-icons/gi';
@@ -8,9 +10,11 @@ import { GiSecretBook } from 'react-icons/gi';
 import { Gradient2 } from '../brand/brand.gradients';
 
 export const HeaderStyles = styled.div`
+  position: relative;
   background: ${Gradient2};
   width: 100%;
   height: 70px;
+  z-index: 1111;
 
   div.wrap {
     display: flex;
@@ -23,6 +27,10 @@ export const HeaderStyles = styled.div`
     height: 100%;
     padding: 0 15px;
 
+    @media (max-width: 1128px) {    
+      padding: 0 30px;
+    }
+  
     a.brand {
       display: flex;
       align-items: center;
@@ -35,7 +43,6 @@ export const HeaderStyles = styled.div`
       }
 
       text-decoration: none;
-      font-size: 32px;
       letter-spacing: 1px;
 
       img {
@@ -46,6 +53,31 @@ export const HeaderStyles = styled.div`
         font-size: 32px;
         font-weight: 400;
         padding: 2.5px 15px 0 15px;
+      }
+
+      @media (max-width: 1023px) {    
+        img {
+          width: 42px;
+        }
+
+        h2 {
+          font-size: 24px;
+        }
+      }
+    }
+
+    a.menu-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      cursor: pointer;
+
+      width: 70px;
+      height: 100%;
+
+      @media (min-width: 1023px) {    
+        display: none;
       }
     }
 
@@ -79,11 +111,36 @@ export const HeaderStyles = styled.div`
           border-bottom: 5px solid white;
         }
       }
+
+      @media (max-width: 1023px) {    
+        display: none;
+        background: ${Gradient2};
+        position: absolute;
+        right: 0;
+        top: 70px;
+
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        padding: 15px 0 0 0;
+
+        a.item {
+          width: 100%;
+          justify-content: flex-start;
+          padding: 5px 15px;
+        }
+
+        &.active {
+          display: flex;
+        }
+      }
     }
   }
 `;
 
 export function Header({ tab }) {
+  const [menu, setMenu] = useState(false);
+
   return (
     <HeaderStyles>
       <div className="wrap">
@@ -93,8 +150,12 @@ export function Header({ tab }) {
             <h2>Dank Exotics</h2>
           </a>
         </Link>
+
+        <a className="menu-toggle" onClick={e => setMenu(!menu)}>
+          <CgMenu/>
+        </a>
        
-        <div className="hitems">
+        <div className={`hitems ${menu ? 'active' : ''}`}>
           <Link href="/profile">
             <a className={`item ${tab === 'profile' ? 'active' : ''}`}>
               <FaRegAddressCard className="icon"/>

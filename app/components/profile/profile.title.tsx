@@ -5,6 +5,10 @@ import { Meter } from '../common/common.meter';
 export const ProfileTitleStyles = styled.div`
   padding: 30px 15px;
 
+  @media (max-width: 1128px) {    
+    padding: 30px;
+  }
+
   h3 {
     font-size: 18px;
     font-weight: 500;
@@ -19,12 +23,30 @@ export const ProfileTitleStyles = styled.div`
     padding: 0 0 30px 0;
   }
 
+  @media (max-width: 640px) {  
+    h3 {
+      font-size: 14px;
+    }
+
+    h4 {
+      font-size: 18px;
+    }
+  }
+
   div.accent {
     width: 320px;
     border-bottom: 2px solid white;
 
     &.long {
       width: 640px;
+    }
+
+    @media (max-width: 640px) {  
+      width: 240px;
+
+      &.long {
+        width: 180px;
+      }
     }
   }
 
@@ -40,6 +62,15 @@ export const ProfileTitleStyles = styled.div`
       font-size: 14px;
       font-weight: bold;
       padding: 15px 0;
+    }
+
+    @media (max-width: 640px) {  
+      flex-wrap: wrap;
+
+      div.stat-section {
+        width: 100%;
+        padding: 15px 0;
+      }
     }
   }
 `;

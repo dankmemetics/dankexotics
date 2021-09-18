@@ -1,6 +1,7 @@
 export interface ExoticI {
     id: number;
     name: string;
+    description?: string;
     type: string;
     terpene: string;
     thc: number;

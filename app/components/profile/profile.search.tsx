@@ -4,6 +4,10 @@ import { Nugget } from '../common/common.nugget';
 export const ProfileSearchStyles = styled.div`
   width: 100%;
   padding: 30px 0;
+  
+  @media (max-width: 1128px) {    
+    padding: 30px 15px;
+  }
 
   input {
     font-size: 18px;

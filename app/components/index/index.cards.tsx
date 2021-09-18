@@ -6,14 +6,20 @@ import { Nugget } from '../common/common.nugget';
 import { Exotics } from '../../exotics';
 
 export const IndexCardsStyles = styled.div`
+    position: relative;
     width: 100%;
     height: 640px;
     border-bottom: 5px solid white;
     overflow: hidden;
 
+    @media (max-width: 640px) {  
+        height: auto;
+    }
+
     ${Gradient3}
 
     div.wrap {
+        position: relative;
         width: 100%;
         height: 100%;
         max-width: 1200px;
@@ -22,11 +28,26 @@ export const IndexCardsStyles = styled.div`
         display: flex;
         align-items: center;
 
+        @media (max-width: 640px) {  
+            flex-wrap: wrap;
+        }
+
         div.graphic {
             display: flex;
             width: 50%;
             height: 100%;
             position: relative;
+            top: -30px;
+
+            @media (max-width: 1128px) {    
+                left: 90px;
+            }
+
+            @media (max-width: 640px) {  
+                width: 100%;
+                height: 420px;
+                left: -60px;
+            }
 
             div.nugget {
                 position: absolute;
@@ -80,6 +101,11 @@ export const IndexCardsStyles = styled.div`
             width: 50%;
             padding: 30px;
 
+            @media (max-width: 640px) {  
+                width: 100%;
+                padding: 60px 30px !important;
+            }
+
             h3 {
                 font-size: 32px;
                 font-weight: 300;
@@ -91,6 +117,18 @@ export const IndexCardsStyles = styled.div`
                 font-size: 18px;
                 font-weight: 400;
                 line-height: 2;
+            }
+
+            @media (max-width: 1128px) {    
+                padding: 0 30px;
+
+                h3 {
+                    font-size: 24px;
+                }
+    
+                p {
+                    font-size: 16px;
+                }
             }
 
             a.button {

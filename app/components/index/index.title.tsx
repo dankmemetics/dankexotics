@@ -8,6 +8,10 @@ export const IndexTitleStyles = styled.div`
     border-bottom: 5px solid white;
     overflow: hidden;
 
+    @media (max-width: 640px) {    
+        height: auto;       
+    }
+
     div.wrap {
         width: 100%;
         height: 100%;
@@ -16,6 +20,12 @@ export const IndexTitleStyles = styled.div`
 
         display: flex;
         align-items: center;
+
+
+        @media (max-width: 640px) {    
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+        }
     }
 
     div.exotics {
@@ -35,6 +45,13 @@ export const IndexTitleStyles = styled.div`
         animation-duration: 25s;
         animation-timing-function: ease;
         animation-iteration-count: infinite;
+
+
+        @media (max-width: 640px) {    
+            width: 100%;
+            height: 360px;
+            animation: none;
+        }
 
         div.exotic {
             display: flex;
@@ -59,6 +76,16 @@ export const IndexTitleStyles = styled.div`
         width: 50%;
         padding: 0 0 0 90px;
 
+        @media (max-width: 640px) {  
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 320px;
+            padding: 0 !important;
+        }
+
         img {
             width: 64px;
             margin: 0 15px 0 0;
@@ -77,6 +104,22 @@ export const IndexTitleStyles = styled.div`
         h3 {
             font-size: 24px;
             font-weight: 400;
+        }
+
+        @media (max-width: 1128px) {
+            padding: 0 0 0 30px;
+            
+            img {
+                width: 42px;
+            }
+
+            h2 {
+                font-size: 32px;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
         }
 
         a.button {

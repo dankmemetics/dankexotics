@@ -19,6 +19,10 @@ export const FooterStyles = styled.div`
         height: 100%;
         padding: 15px;
 
+        @media (max-width: 1128px) {    
+            padding: 15px 30px;
+        }
+
         a.brand {
             display: flex;
             align-items: center;

@@ -6,6 +6,10 @@ import { Exotics } from '../../exotics';
 export const DankpediaNuggetStyles = styled.div`
     padding: 30px 15px;
 
+    @media (max-width: 1128px) {    
+        padding: 30px;
+    }
+
     div.title {
         display: flex;
         align-items: center;
@@ -48,6 +52,20 @@ export const DankpediaNuggetStyles = styled.div`
                 }
             }
         }
+
+        @media (max-width: 640px) {  
+            flex-wrap: wrap;
+            justify-content: center;
+
+            div.text {
+                width: 100%;
+                padding: 30px 0 !important;
+
+                h3 {
+                    font-size: 24px;
+                }
+            }
+        }
     }
 
     div.potency {
@@ -72,7 +90,7 @@ export const DankpediaNuggetStyles = styled.div`
         p {
             font-size: 18px;
             line-height: 2;
-            padding: 15px 0;
+            padding: 15px 0 45px 0;
         }
     }
 `;
@@ -112,7 +130,7 @@ export function DankpediaNugget({ nugget }) {
             <div className="description">
                 <p className="label">About this Dank Exotic</p>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim nunc faucibus a. Convallis convallis tellus id interdum velit. Vulputate odio ut enim blandit volutpat. Bibendum est ultricies integer quis auctor elit sed. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Non blandit massa enim nec dui nunc mattis enim ut. Auctor neque vitae tempus quam pellentesque nec. Nunc consequat interdum varius sit amet mattis vulputate enim. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Morbi non arcu risus quis varius quam quisque id diam. Habitant morbi tristique senectus et. Lorem ipsum dolor sit amet consectetur. Viverra tellus in hac habitasse. At tempor commodo ullamcorper a lacus vestibulum sed. Pulvinar etiam non quam lacus suspendisse faucibus interdum. Erat nam at lectus urna duis convallis convallis tellus id. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim nunc faucibus a. Convallis convallis tellus id interdum velit. Vulputate odio ut enim blandit volutpat. Bibendum est ultricies integer quis auctor elit sed. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Non blandit massa enim nec dui nunc mattis enim ut. Auctor neque vitae tempus quam pellentesque nec. Nunc consequat interdum varius sit amet mattis vulputate enim. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Morbi non arcu risus quis varius quam quisque id diam. Habitant morbi tristique senectus et. Lorem ipsum dolor sit amet consectetur. Viverra tellus in hac habitasse. At tempor commodo ullamcorper a lacus vestibulum sed. Pulvinar etiam non quam lacus suspendisse faucibus interdum. Erat nam at lectus urna duis convallis convallis tellus id. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis.
                 </p>
             </div>
         </DankpediaNuggetStyles>

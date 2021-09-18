@@ -1,12 +1,12 @@
 import { configureStore, ThunkAction } from '@reduxjs/toolkit';
 import { Action } from 'redux';
 import { createWrapper } from 'next-redux-wrapper';
-import { profileSlice } from './redux.profile';
+import { searchSlice } from './redux.search';
 
 export function makeStore() {
   return configureStore({
     reducer: {
-      profile: profileSlice.reducer,
+      search: searchSlice.reducer,
     }
   });
 }

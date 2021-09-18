@@ -12,6 +12,10 @@ export const IndexProfileStyles = styled.div`
     overflow: hidden;
     ${Gradient4}
 
+    @media (max-width: 640px) {  
+        height: auto;
+    }
+
     div.wrap {
         position: relative;
         width: 100%;
@@ -22,12 +26,26 @@ export const IndexProfileStyles = styled.div`
         display: flex;
         align-items: center;
 
+        @media (max-width: 640px) {  
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+        }
+
         div.graphic {
             background: ${Gradient2};
             overflow: hidden;
             width: 50%;
             border-radius: 5px;
             padding: 30px;
+
+            @media (max-width: 1128px) {    
+                position: relative;
+            }
+
+            @media (max-width: 640px) {  
+                width: 100%;
+                margin: 0 0 30px 0;
+            }
 
             h3 {
                 font-size: 18px;
@@ -65,12 +83,26 @@ export const IndexProfileStyles = styled.div`
                     font-weight: bold;
                     padding: 15px 0;
                 }
+
+                @media (max-width: 640px) {  
+                    flex-wrap: wrap;
+              
+                    div.stat-section {
+                      width: 100%;
+                      padding: 15px 0;
+                    }
+                }
             }
         }
 
         div.card-text {
             width: 50%;
             padding: 30px 30px 30px 60px;
+
+            @media (max-width: 640px) {  
+                width: 100%;
+                padding: 60px 30px !important;
+            }
 
             h3 {
                 font-size: 32px;
@@ -83,6 +115,16 @@ export const IndexProfileStyles = styled.div`
                 font-size: 18px;
                 font-weight: 400;
                 line-height: 2;
+            }
+
+            @media (max-width: 1128px) {    
+                h3 {
+                    font-size: 24px;
+                }
+    
+                p {
+                    font-size: 16px;
+                }
             }
 
             a.button {
