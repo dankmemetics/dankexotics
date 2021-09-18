@@ -3,7 +3,7 @@ import { createSliderWithTooltip, Range } from 'rc-slider';
 import 'rc-slider/assets/index.css';
 import { Primary } from '../brand/brand.colors';
 
-export const AuctionsSearchStyles = styled.div`
+export const SearchStyles = styled.div`
   padding: 30px 15px;
 
   input {
@@ -82,11 +82,11 @@ export const AuctionsSearchStyles = styled.div`
   }
 `;
 
-export function AuctionsSearch() {
+export function Search() {
   const RangeInput = createSliderWithTooltip(Range);
 
   return (
-    <AuctionsSearchStyles>
+    <SearchStyles>
       <input type="text" placeholder="Search for Dank Nuggets"/>
       
       <div className="options">
@@ -129,6 +129,6 @@ export function AuctionsSearch() {
         </div>
 
       </div>
-    </AuctionsSearchStyles>
+    </SearchStyles>
   )
 }

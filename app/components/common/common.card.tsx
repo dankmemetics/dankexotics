@@ -119,6 +119,8 @@ export const CardStyles = styled.div`
       align-items: center;
       justify-content: center;
       background: ${Primary3};
+      color: white;
+      text-decoration: none;
       border-radius: 5px;
       font-size: 18px;
       font-weight: bold;

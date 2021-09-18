@@ -1,7 +1,7 @@
 import { PageContainer } from "../components/brand/brand.app";
 import { Header } from '../components/common/common.header';
 import { Footer } from '../components/common/common.footer';
-import { AuctionsSearch } from '../components/auctions/auctions.search';
+import { Search } from '../components/common/common.search';
 import { AuctionsList } from '../components/auctions/auctions.list';
 
 export function Trade() {
@@ -9,7 +9,7 @@ export function Trade() {
     <>
       <Header tab="auctions"/>
       <PageContainer>
-        <AuctionsSearch/>
+        <Search/>
         <AuctionsList/>
       </PageContainer>
       <Footer/>

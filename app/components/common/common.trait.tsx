@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Myrcene, Caryophyllene, Linalool, Pinene, Humulene, Limonene, Indica, Sativa } from '../brand/brand.colors';
+import { Myrcene, Caryophyllene, Linalool, Pinene, Humulene, Limonene, Indica, Sativa, Hybrid, Golden } from '../brand/brand.colors';
 
 export const TraitStyles = styled.div`
   display: flex;
@@ -38,12 +38,27 @@ export const TraitStyles = styled.div`
     &.sativa {
       background: ${Sativa};
     }
+    &.hybrid {
+      background: ${Hybrid};
+    }
+    &.golden {
+      background: ${Golden};
+    }
+  }
+
+  &.large {
+    font-size: 18px;
+
+    div.trait-color {
+      width: 25px;
+      height: 25px;
+    }
   }
 `;
 
-export function Trait({ type, label }) {
+export function Trait({ type, label, size = 'normal' }) {
   return (
-    <TraitStyles>
+    <TraitStyles className={size}>
       <div className={`trait-color ${type.toLowerCase()}`}></div>
       {label}
     </TraitStyles>

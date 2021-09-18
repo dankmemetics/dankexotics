@@ -134,9 +134,9 @@ export function IndexCards() {
                     </Link>
                 </div>
                 <div className="graphic">
-                    <Nugget className="nugget nugget1" image="36" label={Exotics[36].name} type={Exotics[36].type} terpene={Exotics[36].terpene} thc={Exotics[36].thc} cbd={Exotics[36].cbd}/>
-                    <Nugget className="nugget nugget2" image="25" label={Exotics[25].name} type={Exotics[25].type} terpene={Exotics[25].terpene} thc={Exotics[25].thc} cbd={Exotics[25].cbd}/>
-                    <Nugget className="nugget nugget3" image="9" label={Exotics[9].name} type={Exotics[9].type} terpene={Exotics[9].terpene} thc={Exotics[9].thc} cbd={Exotics[9].cbd}/>
+                    <Nugget className="nugget nugget1" image={36} label={Exotics[36].name} type={Exotics[36].type} terpene={Exotics[36].terpene} thc={Exotics[36].thc} cbd={Exotics[36].cbd}/>
+                    <Nugget className="nugget nugget2" image={25} label={Exotics[25].name} type={Exotics[25].type} terpene={Exotics[25].terpene} thc={Exotics[25].thc} cbd={Exotics[25].cbd}/>
+                    <Nugget className="nugget nugget3" image={9} label={Exotics[9].name} type={Exotics[9].type} terpene={Exotics[9].terpene} thc={Exotics[9].thc} cbd={Exotics[9].cbd}/>
                 </div>
             </div>
         </IndexCardsStyles>

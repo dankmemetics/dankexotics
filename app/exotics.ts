@@ -12,7 +12,7 @@ export const Exotics: ExoticI[] = [
         id: 0,
         name: 'Dank Exotic Nugget',
         type: 'Hybrid',
-        terpene: 'golden',
+        terpene: 'Golden',
         thc: 100,
         cbd: 100,
     },

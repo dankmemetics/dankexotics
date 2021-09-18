@@ -1,10 +1,11 @@
+import Link from 'next/link';
 import { CardStyles } from './common.card';
 import { Trait } from './common.trait';
 import { Meter } from './common.meter';
 
 export function Nugget({
   className = 'nugget',
-  image = '2',
+  image = 2,
   label = 'Granddaddy Purple Kush',
   type = 'Indica',
   terpene = 'Myrcene',
@@ -12,6 +13,8 @@ export function Nugget({
   cbd = 2,
   mint = 1,
   supply = 100,
+  displayRarity = true,
+  url = '',
 }) {
   return (
     <CardStyles className={className}>
@@ -40,14 +43,27 @@ export function Nugget({
             </div>
           </div>
 
-          <div className="trait rarity">
-            #{mint} of {supply}
-          </div>
+          {
+            displayRarity ? 
+              <div className="trait rarity">
+                #{mint} of {supply}
+              </div>
+              : ''
+          }
 
-          <a className="view-button">
-            View Exotic
-          </a>
-
+          
+          {
+            url ?
+            <Link href={url}>
+              <a className="view-button">
+                View Exotic
+              </a>
+            </Link>
+            :
+            <a className="view-button">
+              View Exotic
+            </a>
+          }
         </div>
 
       </div>
