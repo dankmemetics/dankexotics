@@ -2,6 +2,9 @@ import { useState } from 'react';
 import Link from 'next/link';
 import styled from 'styled-components';
 
+import { useWallet } from '@solana/wallet-adapter-react';
+import { WalletModalProvider, WalletDisconnectButton, WalletMultiButton } from '@solana/wallet-adapter-react-ui';
+
 import { CgMenu } from 'react-icons/cg';
 import { FaRegAddressCard } from 'react-icons/fa';
 import { BiStoreAlt } from 'react-icons/bi';
@@ -84,7 +87,26 @@ export const HeaderStyles = styled.div`
 
     div.hitems {
       display: flex;
+      align-items: center;
       height: 100%;
+
+      .wallet-adapter-dropdown {
+        display: flex;
+        align-items: center;
+        height: 100%;
+      }
+
+      .wallet-adapter-button {
+        height: 40px;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: Montserrat;
+        margin: 0 0 0 15px;
+
+        @media (max-width: 1023px) {  
+          margin: 10px 15px;
+        }
+      }
 
       a.item {
         display: flex;
@@ -120,6 +142,7 @@ export const HeaderStyles = styled.div`
         top: 70px;
 
         flex-direction: column;
+        align-items: flex-start;
         height: auto;
         width: 100%;
         padding: 15px 0 0 0;
@@ -128,6 +151,10 @@ export const HeaderStyles = styled.div`
           width: 100%;
           justify-content: flex-start;
           padding: 5px 15px;
+
+          &.active {
+            border-bottom: none;
+          }
         }
 
         &.active {
@@ -139,6 +166,7 @@ export const HeaderStyles = styled.div`
 `;
 
 export function Header({ tab }) {
+  const { publicKey } = useWallet();
   const [menu, setMenu] = useState(false);
 
   return (
@@ -174,6 +202,13 @@ export function Header({ tab }) {
               Auctions
             </a>
           </Link>
+
+          <WalletModalProvider logo="/images/logo.png">
+            <WalletMultiButton />
+            {
+              publicKey ? <WalletDisconnectButton /> : ''
+            }
+          </WalletModalProvider>
         </div>        
       </div>
     </HeaderStyles>

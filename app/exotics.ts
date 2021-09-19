@@ -683,7 +683,7 @@ export const Exotics: ExoticI[] = [
     },
     {
         id: 84,
-        name: `Glacier Glue`,
+        name: `Gorilla Glue`,
         type: 'Hybrid',
         terpene: 'Humulene',
         thc: 4,
@@ -691,11 +691,11 @@ export const Exotics: ExoticI[] = [
     },
     {
         id: 85,
-        name: `OG Tonic`,
+        name: `Animal Cookies`,
         type: 'Hybrid',
-        terpene: 'Pinene',
-        thc: 2,
-        cbd: 13,
+        terpene: 'Caryophyllene',
+        thc: 18,
+        cbd: 1,
     },
     {
         id: 86,
@@ -707,11 +707,11 @@ export const Exotics: ExoticI[] = [
     },
     {
         id: 87,
-        name: `Lime Tart`,
-        type: 'Indica',
-        terpene: 'Pinene',
-        thc: 18,
-        cbd: 3,
+        name: `Key Lime Pie`,
+        type: 'Hybrid',
+        terpene: 'Caryophyllene',
+        thc: 19,
+        cbd: 1,
     },
     {
         id: 88,
@@ -731,10 +731,10 @@ export const Exotics: ExoticI[] = [
     },
     {
         id: 90,
-        name: `Golden Gage`,
+        name: `Golden Goat`,
         type: 'Hybrid',
-        terpene: 'Humulene',
-        thc: 21,
+        terpene: 'Myrcene',
+        thc: 19,
         cbd: 1,
     },
     {
@@ -755,10 +755,10 @@ export const Exotics: ExoticI[] = [
     },
     {
         id: 93,
-        name: `Purple Aurora`,
-        type: 'Hybrid',
-        terpene: 'Linalool',
-        thc: 18,
+        name: `Purple Haze`,
+        type: 'Sativa',
+        terpene: 'Myrcene',
+        thc: 17,
         cbd: 1,
     },
     {
@@ -771,10 +771,10 @@ export const Exotics: ExoticI[] = [
     },
     {
         id: 95,
-        name: `Full Moon`,
-        type: 'Sativa',
-        terpene: 'Myrcene',
-        thc: 13,
+        name: `Blue God`,
+        type: 'Indica',
+        terpene: 'Caryophyllene',
+        thc: 16,
         cbd: 1,
     },
     {
@@ -787,10 +787,10 @@ export const Exotics: ExoticI[] = [
     },
     {
         id: 97,
-        name: `Modified Bananas`,
+        name: `Banana Cream OG`,
         type: 'Hybrid',
         terpene: 'Myrcene',
-        thc: 31,
+        thc: 29,
         cbd: 1,
     },
     {
@@ -803,10 +803,10 @@ export const Exotics: ExoticI[] = [
     },
     {
         id: 99,
-        name: `Purple Martian`,
-        type: 'Indica',
+        name: `Martian Candy`,
+        type: 'Hybrid',
         terpene: 'Myrcene',
-        thc: 17,
+        thc: 22,
         cbd: 1,
     },
     {
@@ -819,10 +819,10 @@ export const Exotics: ExoticI[] = [
     },
     {
         id: 101,
-        name: `Alpha Blue`,
-        type: 'Sativa',
+        name: `Subway Scientist`,
+        type: 'Indica',
         terpene: 'Myrcene',
-        thc: 19,
+        thc: 20,
         cbd: 1,
     },
 ]

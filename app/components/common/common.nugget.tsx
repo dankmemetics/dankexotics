@@ -11,8 +11,7 @@ export function Nugget({
   terpene = 'Myrcene',
   thc = 17,
   cbd = 2,
-  mint = 1,
-  supply = 100,
+  rarity = '1 of 100',
   displayRarity = true,
   url = '',
 }) {
@@ -46,7 +45,7 @@ export function Nugget({
           {
             displayRarity ? 
               <div className="trait rarity">
-                #{mint} of {supply}
+                {rarity}
               </div>
               : ''
           }
