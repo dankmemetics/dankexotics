@@ -1,18 +1,22 @@
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 
-import '../styles/index.less';
+import '../dank/components/brand/reset.css';
+import { wrapper } from '../dank/redux/redux.store';
+import { AppContainer } from '../dank/components/brand/brand.app';
 
-export default function App({ Component, pageProps }: AppProps) {
+export function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Metaplex NFT Marketplace</title>
+        <title>Dank Exotics</title>
       </Head>
-      <div id="root">
+      <AppContainer>
         <Component {...pageProps} />
-      </div>
+      </AppContainer>
     </>
   );
 }
+
+export default wrapper.withRedux(App);

@@ -7,7 +7,6 @@ import {
 } from '@oyster/common';
 import { FC } from 'react';
 import { ConfettiProvider } from './components/Confetti';
-import { AppLayout } from './components/Layout';
 import { CoingeckoProvider } from './contexts/coingecko';
 
 export const Providers: FC = ({ children }) => {
@@ -22,7 +21,7 @@ export const Providers: FC = ({ children }) => {
               >
                 <MetaProvider>
                   <ConfettiProvider>
-                    <AppLayout>{children}</AppLayout>
+                    {children}
                   </ConfettiProvider>
                 </MetaProvider>
               </StoreProvider>

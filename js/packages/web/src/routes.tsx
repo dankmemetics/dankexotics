@@ -13,6 +13,11 @@ import {
 } from './views';
 import { AdminView } from './views/admin';
 import { BillingView } from './views/auction/billing';
+import { Index } from './dank/splash';
+import { Dankpedia } from './dank/dankpedia';
+import { Profile } from './dank/profile';
+import { Auctions } from './dank/auctions';
+import { Nugget } from './dank/nugget';
 
 export function Routes() {
   return (
@@ -54,7 +59,11 @@ export function Routes() {
               path="/auction/:id/billing"
               component={() => <BillingView />}
             />
-            <Route path="/" component={() => <HomeView />} />
+            <Route path="/auctions" component={() => <Auctions />} />
+            <Route path="/profile" component={() => <Profile />} />
+            <Route path="/dankpedia/nugget/:id" component={() => <Nugget />} />
+            <Route path="/dankpedia" component={() => <Dankpedia />} />
+            <Route path="/" component={() => <Index />} />
           </Switch>
         </Providers>
       </HashRouter>
