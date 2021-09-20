@@ -44,6 +44,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 4,
     name: 'Afghan Goo',
+    description: `Afgoo, also known as "Afgooey" and "Afghan Goo," is a potent indica-dominant marijuana strain that is believed to descend from Afghani and Maui Haze. This strain may provide some uplifting creativity in smaller doses, but is generally reported to be relaxing and sleepy. Growers hoping to cultivate Afgoo may have a better chance of success indoors, but this indica can also thrive in Mediterranean climates outdoors.`,
     type: 'Indica',
     terpene: 'Myrcene',
     thc: 17,

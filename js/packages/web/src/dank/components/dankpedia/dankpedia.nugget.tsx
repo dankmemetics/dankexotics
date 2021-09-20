@@ -130,7 +130,11 @@ export function DankpediaNugget({ nugget }) {
             <div className="description">
                 <p className="label">About this Dank Exotic</p>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim nunc faucibus a. Convallis convallis tellus id interdum velit. Vulputate odio ut enim blandit volutpat. Bibendum est ultricies integer quis auctor elit sed. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Non blandit massa enim nec dui nunc mattis enim ut. Auctor neque vitae tempus quam pellentesque nec. Nunc consequat interdum varius sit amet mattis vulputate enim. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Morbi non arcu risus quis varius quam quisque id diam. Habitant morbi tristique senectus et. Lorem ipsum dolor sit amet consectetur. Viverra tellus in hac habitasse. At tempor commodo ullamcorper a lacus vestibulum sed. Pulvinar etiam non quam lacus suspendisse faucibus interdum. Erat nam at lectus urna duis convallis convallis tellus id. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis.
+                    {
+                        Exotics[index].description ?
+                            Exotics[index].description :
+                           `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim nunc faucibus a. Convallis convallis tellus id interdum velit. Vulputate odio ut enim blandit volutpat. Bibendum est ultricies integer quis auctor elit sed. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Non blandit massa enim nec dui nunc mattis enim ut. Auctor neque vitae tempus quam pellentesque nec. Nunc consequat interdum varius sit amet mattis vulputate enim. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Morbi non arcu risus quis varius quam quisque id diam. Habitant morbi tristique senectus et. Lorem ipsum dolor sit amet consectetur. Viverra tellus in hac habitasse. At tempor commodo ullamcorper a lacus vestibulum sed. Pulvinar etiam non quam lacus suspendisse faucibus interdum. Erat nam at lectus urna duis convallis convallis tellus id. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis.`
+                    }
                 </p>
             </div>
         </DankpediaNuggetStyles>
