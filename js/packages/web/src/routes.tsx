@@ -18,6 +18,7 @@ import { Dankpedia } from './dank/dankpedia';
 import { Profile } from './dank/profile';
 import { Auctions } from './dank/auctions';
 import { Nugget } from './dank/nugget';
+import { Auction } from './dank/auction';
 
 export function Routes() {
   return (
@@ -59,6 +60,7 @@ export function Routes() {
               path="/auction/:id/billing"
               component={() => <BillingView />}
             />
+            <Route path="/auctions/:id" component={() => <Auction/>}/>
             <Route path="/auctions" component={() => <Auctions />} />
             <Route path="/profile" component={() => <Profile />} />
             <Route path="/dankpedia/nugget/:id" component={() => <Nugget />} />

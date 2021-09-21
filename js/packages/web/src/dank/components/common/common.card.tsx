@@ -17,6 +17,7 @@ export const CardStyles = styled.div`
   img {
     margin: 5px auto 15px auto;
     width: 180px;
+    height: 180px;
     border: 5px solid white;
     border-radius: 50%;
   }

@@ -5,6 +5,9 @@ export const Primary3 = `#5748DF`;
 
 export const Background = `#202020`;
 
+export const Green = `#35C914`;
+export const Red = `#C91414`;
+
 // Terpene Color Palette
 export const Myrcene = `#567684`;
 export const Caryophyllene = `#496347`;

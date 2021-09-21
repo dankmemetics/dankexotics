@@ -7,6 +7,8 @@ export const initialState = {
     owned: [] as any,
     created: [] as any,
   },
+  auctions: [] as any,
+  auction: {} as any,
 };
 
 export const profileSlice = createSlice({
@@ -22,7 +24,14 @@ export const profileSlice = createSlice({
     setNuggets(state, action) {
       state.nuggets.owned = action.payload ?? [];
     },
+    setAuctions(state, action) {
+      state.auctions = action.payload ?? [];
+    },
+    setAuction(state, action) {
+      state.auction = action.payload ?? {};
+    },
   },
 });
 
-export const { setLoading, setConnected, setNuggets } = profileSlice.actions;
+export const { setLoading, setConnected, setNuggets, setAuctions, setAuction } =
+  profileSlice.actions;
