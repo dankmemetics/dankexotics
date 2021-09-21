@@ -41,7 +41,7 @@ export function Connect({ active = false }) {
     return(
         <ConnectStyles className={active ? 'active' : ''}>
             <img src="/images/logo.png"/>
-            <p>Connect your profile to view your dank nuggets</p>
+            <p>Connect your wallet to view your dank nuggets</p>
         </ConnectStyles>
     )
 }

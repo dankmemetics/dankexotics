@@ -57,6 +57,14 @@ export function ProfileSearchComponent({
   const ownedMetadata = useUserArts();
 
   setConnected(connected);
+  
+  useLayoutEffect(() => {
+    setLoading(true);
+
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000 * 15);
+  }, []);
 
   useLayoutEffect(() => {
     if (ownedMetadata.length > 0) {
@@ -84,7 +92,7 @@ export function ProfileSearchComponent({
 
   return (
     <ProfileSearchStyles>
-      <Loading active={connected && ownedMetadata.length === 0}/>
+      <Loading active={connected && owned.length === 0 && loading}/>
       <Connect active={!connected}/>
       <div className="results">
         {

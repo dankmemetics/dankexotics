@@ -13,6 +13,7 @@ import { Exotics } from '../../exotics';
 import { fromLamports } from '@oyster/common';
 import { useAuction, useBidsForAuction } from '../../../hooks';
 import { Loading } from '../common/common.loading';
+import { useWallet } from '@solana/wallet-adapter-react';
 
 export const AuctionStyles = styled.div`
     div.title {
@@ -148,6 +149,7 @@ export function AuctionComponent({ auction, loading, setAuction, setLoading }: A
     const { id } = useParams<{ id: string }>();
     const auctionHook = useAuction(id);
     const bids = useBidsForAuction(auctionHook?.auction.pubkey || '');
+    const { connected } = useWallet();
 
     let ended = false;
     const [timer, setTimer] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -253,8 +255,14 @@ export function AuctionComponent({ auction, loading, setAuction, setLoading }: A
                         </div>
                     </div>
 
-                    <h3>Bid on this Dank Nugget</h3>
-                    <AuctionInput auction={auctionHook} minPrice={minPrice} ended={ended}/>
+                    {
+                        connected ?
+                        <>
+                            <h3>Bid on this Dank Nugget</h3>
+                            <AuctionInput auction={auctionHook} minPrice={minPrice} ended={ended}/>
+                        </>
+                        : ''
+                    }
 
                     <h3>Bids on this Dank Nugget</h3>
                     <div className="bid-list">
