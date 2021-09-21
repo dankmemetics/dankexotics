@@ -53,6 +53,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 5,
     name: 'Bubba Kush',
+    description: `Bubba Kush, also known as "BK," "Bubba," and "Bubba OG Kush" is an indica marijuana strain that has gained notoriety in the US and beyond for its heavy tranquilizing effects. Sweet hashish flavors with subtle notes of chocolate and coffee come through on the exhale, delighting the palate as powerful relaxation takes over. From head to toe, muscles ease with heaviness as dreamy euphoria blankets the mind, crushing stress while bringing happy moods. Bubba Kush exhibits a distinctive, bulky bud structure with hues that range from forest green to pale purple.`,
     type: 'Indica',
     terpene: 'Caryophyllene',
     thc: 17,

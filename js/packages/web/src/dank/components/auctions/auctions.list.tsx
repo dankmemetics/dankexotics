@@ -57,6 +57,8 @@ export function AuctionsListComponent({ auctions, setAuctions }: AuctionsListI) 
     }
   }, [auctionsLive, auctionsEnded]);
 
+  console.log('Auction Data', auctionsData);
+
   return (
     <AuctionsListStyles>
       {auctions.map(auction => {

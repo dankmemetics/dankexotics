@@ -10,6 +10,8 @@ export function makeStore() {
       search: searchSlice.reducer,
       profile: profileSlice.reducer,
     },
+    middleware: getDefaultMiddleware =>
+      getDefaultMiddleware({ serializableCheck: false }),
   });
 }
 
