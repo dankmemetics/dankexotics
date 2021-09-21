@@ -66,7 +66,9 @@ export const ENDPOINTS = [
   },
 ];
 
-const DEFAULT = ENDPOINTS[0].endpoint;
+export const NETWORK_INDEX = parseInt(process.env.NETWORK || '4');
+
+const DEFAULT = ENDPOINTS[NETWORK_INDEX].endpoint;
 
 interface ConnectionConfig {
   connection: Connection;
@@ -81,7 +83,7 @@ const ConnectionContext = React.createContext<ConnectionConfig>({
   endpoint: DEFAULT,
   setEndpoint: () => {},
   connection: new Connection(DEFAULT, 'recent'),
-  env: ENDPOINTS[0].name,
+  env: ENDPOINTS[NETWORK_INDEX].name,
   tokens: [],
   tokenMap: new Map<string, TokenInfo>(),
 });
@@ -89,7 +91,7 @@ const ConnectionContext = React.createContext<ConnectionConfig>({
 export function ConnectionProvider({ children = undefined as any }) {
   const [endpoint, setEndpoint] = useLocalStorageState(
     'connectionEndpoint',
-    ENDPOINTS[0].endpoint,
+    ENDPOINTS[NETWORK_INDEX].endpoint,
   );
 
   const connection = useMemo(
@@ -98,7 +100,9 @@ export function ConnectionProvider({ children = undefined as any }) {
   );
 
   const env =
-    ENDPOINTS.find(end => end.endpoint === endpoint)?.name || ENDPOINTS[0].name;
+    ENDPOINTS.find(end => end.endpoint === endpoint)?.name || ENDPOINTS[NETWORK_INDEX].name;
+
+  console.log('connected to', env);
 
   const [tokens, setTokens] = useState<TokenInfo[]>([]);
   const [tokenMap, setTokenMap] = useState<Map<string, TokenInfo>>(new Map());

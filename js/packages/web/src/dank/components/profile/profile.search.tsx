@@ -5,6 +5,8 @@ import { NftNugget } from '../common/common.nft.nugget';
 import { useUserArts } from '../../../hooks';
 import { setLoading, setConnected, setNuggets } from '../../redux/redux.profile';
 
+import { Loading } from '../common/common.loading';
+import { Connect } from '../common/common.connect';
 import { useLayoutEffect } from 'react';
 import { useWallet } from '@solana/wallet-adapter-react';
 
@@ -54,10 +56,10 @@ export function ProfileSearchComponent({
   const { connected, publicKey } = useWallet();
   const ownedMetadata = useUserArts();
 
+  setConnected(connected);
+
   useLayoutEffect(() => {
     if (ownedMetadata.length > 0) {
-      setConnected(connected);  
-
       (async () => {
         const owned: Array<any> = [];
 
@@ -76,12 +78,14 @@ export function ProfileSearchComponent({
         }
 
         setNuggets(owned);
-    })();
+      })();
     }
   }, [ownedMetadata]);
 
   return (
     <ProfileSearchStyles>
+      <Loading active={connected && ownedMetadata.length === 0}/>
+      <Connect active={!connected}/>
       <div className="results">
         {
           owned.map(item => {

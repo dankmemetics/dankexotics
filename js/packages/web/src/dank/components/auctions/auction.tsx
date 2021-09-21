@@ -8,10 +8,11 @@ import { Trait } from '../common/common.trait';
 import { Meter } from '../common/common.meter';
 import { AuctionBid } from './auction.bid';
 import { AuctionInput } from './auction.input';
-import { setAuction } from '../../redux/redux.profile';
+import { setAuction, setLoading } from '../../redux/redux.profile';
 import { Exotics } from '../../exotics';
 import { fromLamports } from '@oyster/common';
 import { useAuction, useBidsForAuction } from '../../../hooks';
+import { Loading } from '../common/common.loading';
 
 export const AuctionStyles = styled.div`
     div.title {
@@ -138,10 +139,12 @@ export function padding(num: number) {
 
 export interface AuctionI {
     auction: any;
+    loading: boolean;
     setAuction(payload: any): void;
+    setLoading(payload: boolean): void;
 }
 
-export function AuctionComponent({ auction, setAuction }: AuctionI) {
+export function AuctionComponent({ auction, loading, setAuction, setLoading }: AuctionI) {
     const { id } = useParams<{ id: string }>();
     const auctionHook = useAuction(id);
     const bids = useBidsForAuction(auctionHook?.auction.pubkey || '');
@@ -166,6 +169,8 @@ export function AuctionComponent({ auction, setAuction }: AuctionI) {
     }
 
     useLayoutEffect(() => {
+        setLoading(true);
+
         (async() => {
             if (auctionHook) {
                 const pubkey = auctionHook.thumbnail.metadata.pubkey;
@@ -179,7 +184,8 @@ export function AuctionComponent({ auction, setAuction }: AuctionI) {
                     image: data.body.image,
                     description: data.body.description,
                     attributes: data.body.attributes,
-                })
+                });
+                setLoading(false);
             }
         })();
     }, [auctionHook]);
@@ -220,6 +226,7 @@ export function AuctionComponent({ auction, setAuction }: AuctionI) {
 
     return(
         <AuctionStyles>
+            <Loading active={loading}/>
             <div className="title">
                 <img src={`/exotics/${index}.jpg`}/>
                 <div className="text">
@@ -289,6 +296,7 @@ export function AuctionComponent({ auction, setAuction }: AuctionI) {
 
 export const AuctionState = state => ({
     auction: state.profile.auction,
+    loading: state.profile.loading,
 })
 
-export const Auction = connect(AuctionState, { setAuction })(AuctionComponent);
+export const Auction = connect(AuctionState, { setAuction, setLoading })(AuctionComponent);

@@ -17,7 +17,7 @@ export const HeaderStyles = styled.div`
   background: ${Gradient2};
   width: 100%;
   height: 70px;
-  z-index: 1111;
+  z-index: 901;
 
   div.wrap {
     display: flex;

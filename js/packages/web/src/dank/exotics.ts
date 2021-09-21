@@ -12,6 +12,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 0,
     name: 'Dank Exotic Nugget',
+    description: `The dankest nugget of them all, the Dank Exotic Nugget chiefs like absolute gold. Getting any smoker of this beauty absolutely blasted and high out of their complete minds. Not only that, but it features tons of Endo Cannabinoids that have super powerful healing effects. Making it super effective in healing joint pain, skin problems while acting as a muscle relaxant. It's an extremely potent nugget that looks and feels like real gold. A must have for any serious toker, if you can get your hands on such a gem.`,
     type: 'Hybrid',
     terpene: 'Golden',
     thc: 100,
@@ -20,6 +21,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 1,
     name: 'Tropicana Cookies',
+    description: `Tropicana Cookies, also known as "Tropicanna Cookies," "Tropicana Cookies F2," and "MTN Trop," is a hybrid marijuana strain first bred by Harry Palms of Bloom Seed Co, who crossed GSC and Tangie. Oni Seed Co of Colorado made a second generation, "Tropicanna Cookies F2" that is also acclaimed. Expect citrus notes backed up by cookies flavor and power. This strain produces purple buds that have hints of dark green with orange hairs.`,
     type: 'Sativa',
     terpene: 'Caryophyllene',
     thc: 16,
@@ -28,6 +30,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 2,
     name: 'Granddaddy Purple',
+    description: `Granddaddy Purple is an indica marijuana strain that goes by many different names, including "Grand Daddy Purp," "Granddaddy Purps," "GDP," and "Grandaddy Purple Kush." Popularized in 2003 by Ken Estes, Granddaddy Purple (or GDP) is a famous indica cross of Mendo Purps, Skunk, and Afghanistan. This California staple inherits a complex grape and berry aroma from its Mendo Purps and Afghanistan parent, while Skunk passes on its oversized, compact bud structure. GDP flowers bloom in shades of deep purple, a contrasting backdrop for its snow-like dusting of white crystal resin. Its potent effects are clearly detectable in both mind and body, delivering a fusion of cerebral euphoria and physical relaxation. While your thoughts may float in a dreamy buzz, your body is more likely to find itself fixed in one spot for the duration of GDP’s effects.`,
     type: 'Indica',
     terpene: 'Myrcene',
     thc: 17,
@@ -36,6 +39,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 3,
     name: 'Purple Punch',
+    description: `Purple Punch is the sweet and sedating union of two indica-dominant classics. By breeding Larry OG with Granddaddy Purple, the astonishing trichome laden Purple Punch was born, smelling of grape candy, blueberry muffins, and tart Kool-Aid. The potency of this strain gives the consumer a one-two punch to the head and body, initially landing between the eyes and settling down into the limbs. Purple Punch is a delicious dessert strain that is best suited for after dinner. Its effects may help with managing nausea, stress, minor body aches, and sleeplessness.`,
     type: 'Indica',
     terpene: 'Caryophyllene',
     thc: 19,
@@ -62,6 +66,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 6,
     name: 'Purple Kush',
+    description: `Purple Kush is a pure indica strain that emerged from the Oakland area of California as the result of crossing Hindu Kush and Purple Afghani. Its aroma is subtle and earthy with sweet overtones typical of Kush varieties. Blissful, long-lasting euphoria blankets the mind while physical relaxation rids the body of pain, sleeplessness, and stress. Purple Kush will grow wide rather than tall, and will be ready for harvest following an 8-week flowering time.`,
     type: 'Indica',
     terpene: 'Myrcene',
     thc: 17,
@@ -70,6 +75,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 7,
     name: 'G 13',
+    description: `G13, also known as "G-13" and "G Thirteen," is a potent indica marijuana strain and is the subject of many urban legends. According to some accounts, the CIA, FBI, and other agencies gathered the best strains of marijuana from breeders all over the world. At a super-secret installation at the University of Mississippi, they bred many new super hybrids in the late 1960s. Allegedly, a single cutting of this plant was liberated by an unnamed technician and bred for the masses. Although the legends are probably not true, G13 delivers effects like no other. If you have the opportunity, definitely partake in this strain.`,
     type: 'Indica',
     terpene: 'Myrcene',
     thc: 18,
@@ -78,6 +84,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 8,
     name: 'Blackberry Kush',
+    description: `Blackberry Kush, also known as "BBK" is an indica-dominant hybrid marijuana strain made by crossing Afghani with Blackberry. Blackberry Kush produces relaxing effects, and is often recommended for pain management thanks to its strong body high. Blackberry Kush offers a hashy flavor profile with a jet fuel taste and aroma balanced out with sweet berries. According to growers, this strain is marked by dense and beautiful nugs of purple and orange. This strain takes approximately 7-8 to flower although it does not typically have a high yield.`,
     type: 'Indica',
     terpene: 'Myrcene',
     thc: 16,
@@ -86,6 +93,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 9,
     name: 'LA Confidential',
+    description: `LA Confidential, also known as "Confidential" and "Confidential OG," is a popular indica marijuana strain. Its buds have a frosty, lime green appearance and little purple leaves. The taste of LA Confidential is smooth and piney, with a classic skunky aroma that does not linger for too long. Overall, LA Confidential is a well-rounded strain that delivers a fast-approaching sensation that is both psychedelic and super calming on the mind and body. For newer patients seeking relief, LA Confidential can both lull you to sleep and treat acute pain.`,
     type: 'Indica',
     terpene: 'Myrcene',
     thc: 17,
@@ -94,6 +102,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 10,
     name: 'Hindu Kush',
+    description: `Hindu Kush, also known as "Hindi Kush," is a pure indica marijuana strain named after the mountain range stretching 500 miles between Pakistan and Afghanistan where it originated. The harsh climate of its homeland has conditioned this strain to express a thick, protective coat of crystal trichomes cherished by hash makers worldwide. With a subtle sweet and earthy sandalwood aroma, Hindu Kush induces a deep sense of calm that helps bring relief to those suffering pain, nausea, and stress disorders.`,
     type: 'Indica',
     terpene: 'Limonene',
     thc: 18,
@@ -102,6 +111,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 11,
     name: '9lb Hammer',
+    description: `9 Pound Hammer, also known as "9 Pound Hammer" and "Nine Pound Hammer," is an indica marijuana strain created by JinxProof Genetics that crosses Gooberry, Hells OG, and Jack the Ripper. These dense buds are coated in resin, offering sweet grape and lime flavors. 9 Pound Hammer hosts a terpene profile abundant in myrcene, pinene, and caryophyllene with THC levels ranging between 17-21%. Effects can be heavy and long-lasting, making this strain useful for pain and stress relief. Best grown indoors, 9 Pound Hammer flowers between 50-60 days and will deliver high yields.`,
     type: 'Indica',
     terpene: 'Myrcene',
     thc: 18,
@@ -110,6 +120,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 12,
     name: 'Romulan',
+    description: `Romulan is an indica marijuana strain made by crossing North American Indica with White Rhino. Named after the alien Star Trek race, this pine-scented strain is revered for its potent and therapeutic qualities. You can expect Romulan to deliver intense, cerebral effects that eventually give way to sedation and relaxation. Medical marijuana patients choose this strain to help treat symptoms related to muscle spasms and nerve damage. Growers say Romulan produces dense, frosty buds and is a popular choice among growers in the Pacific Northwest.`,
     type: 'Indica',
     terpene: 'Myrcene',
     thc: 16,
@@ -118,6 +129,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 13,
     name: 'Purple Urkle',
+    description: `Purple Urkle’s history is as complex as its flavor palate. A California strain, the origins are believed to stem from a select phenotype of Mendocino Purps, while the essence is a blend of skunk, berry, and fresh grapes. Consumers report the effects to be deeply relaxing, sleep-inducing, and a great option for full-body pain relief. The short onset of effects make it a perfect nighttime strain for those who suffer from insomnia.`,
     type: 'Indica',
     terpene: 'Myrcene',
     thc: 16,
@@ -126,6 +138,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 14,
     name: 'Pink OG',
+    description: `Pink Kush, as coveted as its OG Kush relative, is an indica-dominant hybrid with powerful body-focused effects. In its exceptional variations, pink hairs burst from bright green buds barely visible under a blanket of sugar-like trichomes, with traces of a sweet vanilla and candy perfume. The potency of this strain could be considered overpowering, and even small doses are known to eliminate pain, insomnia, and appetite loss. Growers have to wait 10 to 11 weeks for Pink Kush’s flowering, but high yields of top-shelf buds are worth the wait.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 18,
@@ -134,6 +147,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 15,
     name: 'OG Kush',
+    description: `OG Kush, also known as "Premium OG Kush," was first cultivated in Florida in the early ‘90s when a strain from Northern California was supposedly crossed with Chemdawg, Lemon Thai and a Hindu Kush plant from Amsterdam. The result was a hybrid with a unique terpene profile that boasts a complex aroma with notes of fuel, skunk, and spice. OG Kush should smell like lemon-pine-fuel with a high-THC, mixed head and body effect. It's often enjoyed in the back half of the day to ease stress.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 18,
@@ -142,6 +156,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 16,
     name: 'Dosi',
+    description: `Do-Si-Dos, also known as "Dosi," is an indica-dominant hybrid marijuana strain with qualities similar to its parent, OGKB, a GSC-phenotype. With glittering trichomes, bright pistils, and lime green and lavender leaves, this strain is a feast for eyes. Its aroma is pungent, sweet, and earthy with slight floral funkiness. These classic OG aromas blend nicely with medical-grade body effects that lean toward the sedative side with the addition of Face Off OG genetics. Enjoy a stoney, in-your-face buzz off the start that melts down over the body, prettifying the consumer with relaxation that emanates outward.`,
     type: 'Indica',
     terpene: 'Limonene',
     thc: 20,
@@ -150,6 +165,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 17,
     name: 'Afghani',
+    description: `Afghani, also known as "Afghan" and "Afghanistan," is a potent indica marijuana strain. This strain delivers a deep state of relaxation and euphoria. The flavors Afghani produces are sweet and earthy. Medical marijuana patients most commonly turn to this strain to treat insomnia, pain, and stress disorders. Afghani is named after its geographic origin, where the earliest varieties of cannabis are believed to have grown. Breeders worldwide have come to treasure this strain for its heavy resin production which is passed on genetically.`,
     type: 'Indica',
     terpene: 'Myrcene',
     thc: 16,
@@ -158,6 +174,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 18,
     name: 'Ice Cream Cake',
+    description: `Ice Cream Cake is an indica marijuana strain made by crossing Wedding Cake with Gelato #33. This strain offers sedating effects that leave your mind and body completely relaxed. Ice Cream Cake features a creamy flavor profile with sweet hints of vanilla and sugary dough. This strain is reported by medical marijuana patients and consumers to have calming effects that help with pain, sleep, and anxiety. Ice Cream Cake is ideal for night time use when you have nothing important to do except watch TV and fall asleep. Growers say this strain has light green and purple buds that are completely flushed with icy trichomes.`,
     type: 'Indica',
     terpene: 'Limonene',
     thc: 21,
@@ -166,6 +183,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 19,
     name: 'Slurricane',
+    description: `Slurricane is an indica marijuana strain made by crossing Do-Si-Dos with Purple Punch. Slurricane produces relaxing effects that come on slowly. This strain has a sweet flavor profile, with subtle grape and sugary berries. Slurricane is the ideal strain for relaxing after a long day and will likely leave you locked to your sofa. Medical marijuana patients choose this strain to help relieve symptoms associated with insomnia.`,
     type: 'Indica',
     terpene: 'Limonene',
     thc: 21,
@@ -174,6 +192,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 20,
     name: 'Apple Fritter',
+    description: `Apple Fritter, a true hybrid strain, is known for its powerful and relaxing high. Put out by Lumpy’s Flowers, Apple Fritter is a strain with secret origins. Those who enjoy Apple Fritter say this strain allows you to enjoy an evening without losing your cool. Apple Fritter has a flavor and and aroma that come off as sweet and earthy, with a light cheesy apple pastry influence.`,
     type: 'Hybrid',
     terpene: 'Limonene',
     thc: 25,
@@ -182,6 +201,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 21,
     name: 'Gorilla Cookies',
+    description: `Gorilla Cookies by Elev8 Seeds is the powerful union of Gorilla Glue #4 and Thin Mint Girl Scout Cookies. The pungent Gorilla Glue aroma is loud, but Thin Mint’s exotic terpene profile adds nuance to the bouquet. Both parents were bred for potency and that shows in the resin-coated buds that harden like stones after curing. Enjoy this one-hitter quitter with care, as the effects will alter the trajectory of your entire day. Gorilla Cookies is a quality strain for managing physical pain, nausea, and stress.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 19,
@@ -190,6 +210,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 22,
     name: 'OG Kush Breath',
+    description: `OGKB, also known as "OG Kush Breath," is a hybrid marijuana strain that is believed to be a descendant of Girl Scout Cookies. This strain provides heavy, head-to-toe effects and is ideal for consumers looking for long-lasting relief of stress, insomnia, or chronic pain. OGKB has an earthy and herbal aroma with nutty, berry overtones, and its flavor adds a touch of vanilla. Growers say this strain blooms in hues of dark green and purple, with electric orange hairs and crystal-tipped trichomes.`,
     type: 'Hybrid',
     terpene: 'Limonene',
     thc: 24,
@@ -198,6 +219,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 23,
     name: 'Peanut Butter Breath',
+    description: `Peanut Butter Breath, also known as "Peanut Butter" and "Peanut Breath," is a hybrid marijuana strain known for its sedating effects. Crossed with Do-Si-Dos and Mendo Breath, Peanut Butter Breath has a unique nutty and earthy terpene profile when smoked. Beyond the terps, this strain will bring you down into a quality state of chill and relaxation. Originally from ThugPug Genetics, Peanut Butter Breath is very popular and there are many Do-Si-Dos and Mendo Breath crosses out there—breeders Clout King have one called “Peanut Butter Cup.”`,
     type: 'Hybrid',
     terpene: 'Caryophyllene',
     thc: 20,
@@ -206,6 +228,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 24,
     name: 'LA Kush Cake',
+    description: `LA Kush Cake, also known as "Los Angeles Kush Cake" and "LA Kush Cake #11," is a hybrid marijuana strain. This cross of the popular Wedding Cake and Kush Mints comes from Liberty Health Sciences and Seed Junky Genetics. La Kush Cake is an indica-dominant strain that smells like vanilla and has an earthy peppermint taste. It’s an easy, smooth hitter, and effects take a while to come on. This is a beautiful flower, with green and purple buds covered in frosty trichomes. It’s great for relaxing and winding down at the end of the night without much else to do.`,
     type: 'Hybrid',
     terpene: 'Caryophyllene',
     thc: 23,
@@ -214,6 +237,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 25,
     name: 'Master Kush',
+    description: `Master Kush, also known as "High Rise," "Grandmaster Kush," and "Purple SoCal Master Kush" is a popular indica marijuana strain crossed from two landrace strains from different parts of the Hindu Kush region by the Dutch White Label Seed Company in Amsterdam. The plant produces a subtle earthy, citrus smell with a hint of incense, which is often described as a vintage flavor. The taste of Master Kush is reminiscent of the famous hard-rubbed charas hash. This strain holds a superb balance of full-body relaxation without mind-numbing effects. Instead, Master Kush offers a sharpened sensory awareness that can bring out the best of any activity.`,
     type: 'Indica',
     terpene: 'Caryophyllene',
     thc: 18,
@@ -222,6 +246,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 26,
     name: 'Skywalker Kush',
+    description: `Well loved by many for the fruity aroma and taste that is coupled with a rather mellow Indica style high. Quickly creeping in is a sense of euphoria that, while not often leading to couch-lock, will usually leave a user feeling a little lazy, perhaps even sleepy. This strain is great for relaxation as the other cerebral effects follow, uplifting users and making them feel happy. The body high that accompanies these effects is mild in comparison to some pure Indicas but still numbingly potent, as is Skywalker's munchies effect. Unfortunately this strain is not deprived of the usual negative effects; dry eyes and mouth, dizziness, paranoia and headaches. While not everyone feels dragged down to the depths of sleep by the use of Skywalker, responsible first-time users should leave this strain to evening or night time use. It is often the choice of medication for those who sufferer from stress, anxiety and insomnia. Skywalker is not recommended for severe or intense pain but may lessen the effects of milder aches and pains. The strain is also used to induce appetite, fight depression and alleviate nausea.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 17,
@@ -230,6 +255,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 27,
     name: 'Grape Ape',
+    description: `Grape Ape, propagated by Apothecary Genetics and Barney’s Farm, is a mostly indica strain that crosses Mendocino Purps, Skunk, and Afghani. Named for its distinct grape-like smell, this indica is known for providing carefree relaxation that can help soothe pain, stress, and anxiety. Its dense, compact buds are wreathed in deep purple leaves which darken as this indica reaches full maturation following its 7 to 8 week flowering time.`,
     type: 'Indica',
     terpene: 'Myrcene',
     thc: 17,
@@ -238,6 +264,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 28,
     name: 'Banana Punch',
+    description: `Banana Punch is an evenly balanced hybrid marijuana strain made by crossing Banana OG with Purple Punch. This strain produces sedating effects that can be felt from head-to-toe. Banana Punch tastes like hazey berries with notes of freshly cut pineapple and of course, bananas. Conumers say this strain is a "creeper strain", which means the high will come on slower than you might expect, so take it easy with this one until you know how it effects your body. Growers say Banana Punch flowers into nugs that are cakey and covered in a heavy layer of purple and orange trichomes. Medical marijuana patients choose this strain to help relieve symptoms associated with anxiety, appetite loss and stress.`,
     type: 'Hybrid',
     terpene: 'Limonene',
     thc: 20,
@@ -246,6 +273,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 29,
     name: 'Sour Diesel',
+    description: `Sour Diesel, also known as "Sour D" and "Sour Deez," is a popular sativa marijuana strain made by crossing Chemdawg and Super Skunk. Sour Diesel effects are dreamy, cerebral, fast-acting and energizing. This strain features a pungent flavor profile that smells like diesel. Medical marijuana patients choose Sour Diesel to help relieve symptoms associated with depression, pain, and stress. Growers say this strain grows best in a dry, outdoor climate and has a flowering time of 77 days. Fun fact: Sour Diesel first became popular in the early 1990s and has been legendary ever since.`,
     type: 'Sativa',
     terpene: 'Caryophyllene',
     thc: 18,
@@ -254,6 +282,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 30,
     name: 'Durban Poison',
+    description: `This pure sativa originates from the South African port city of Durban. It has gained popularity worldwide for its sweet smell and energetic, uplifting effects. Durban Poison is the perfect strain to help you stay productive through a busy day, when exploring the outdoors, or to lend a spark of creativity. Growers and concentrate enthusiasts will both enjoy the over-sized resin glands which make this strain a quality choice for concentrate extraction. The buds are round and chunky, and leave a thick coating of trichomes on almost all areas of the plant.`,
     type: 'Sativa',
     terpene: 'Humulene',
     thc: 17,
@@ -262,6 +291,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 31,
     name: 'Pineapple Express',
+    description: `Pineapple Express is a sativa-dominant hybrid marijuana strain made by crossing Trainwreck with Hawaiian. While this strain rose to fame on the silver screen in 2008 amidst the release of Pineapple Express, it is a real strain that you can find on the shelves of dispensaries across the country.  Since then, this strain has become a favorite in the hearts and minds of cannabis lovers. Pineapple Express produces long-lasting energetic effects that you can feel right away. Pineapple Express is 18% THC and may make you feel buzzy, alert, and creative. The best time to smoke Pineapple Express is in the morning, afternoon, or early evening hours. In terms of flavor, this strain packs a punch to your pallet with bright citrus notes infused with pineapple and earthy pine, thanks to the terpenes of caryophyllene, limonene, and pinene. Medical marijuana patients choose Pineapple Express to relieve symptoms associated with depression, pain, and fatigue. According to growers, this strain will flower into dense curly buds with dark green foliage and firey amber hairs.`,
     type: 'Sativa',
     terpene: 'Caryophyllene',
     thc: 18,
@@ -270,6 +300,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 32,
     name: 'Maui Wowie',
+    description: `Maui Wowie, also known as "Maui Waui" and "Mowie Wowie," is a classic sativa marijuana strain made from a cross of Hawaiian and another strain that remains unknown. This strain features tropical flavors and stress-relieving qualities that will float you straight to the shores of Hawaii where this strain originally comes from. Since its beginnings in the island’s volcanic soil, Maui Wowie has spread across the world to bless us with its sweet pineapple flavors and high-energy euphoria. Lightweight effects allow your mind to drift away to creative escapes, while Maui Wowie’s motivating, active effects may be all you need to get outside and enjoy the sun. This tall, lanky strain is best suited for cultivation in warm, tropical climates that mirror its homeland, but a bright environment and nutrient-rich soil are typically adequate for indoor growing.`,
     type: 'Sativa',
     terpene: 'Myrcene',
     thc: 17,
@@ -278,6 +309,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 33,
     name: 'Acapulco Gold',
+    description: `Acapulco Gold is a rare sativa marijuana strain. As one of the most well-known strains, Acapulco Gold has been likened to dinner at a five-star restaurant. This strain produces effects that are motivating and energizing. This strain comes from the area in and around Acapulco, Mexico, and its orange hairs resemble a gold nugget, with gold, green, and brown colors and plenty of resin on the buds. An aroma of burnt toffee lingers when the bud is broken up. Acapulco Gold has a reputation for being one of the best cannabis strains ever created, and it's becoming more difficult to find.`,
     type: 'Sativa',
     terpene: 'Myrcene',
     thc: 19,
@@ -286,6 +318,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 34,
     name: 'Green Crack',
+    description: `Green Crack, also known as "Green Crush" and "Mango Crack," is a potent sativa marijuana strain made by crossing Skunk #1 with an unknown indica. This strain is beloved by many consumers for its energizing effects. But don’t let the name fool you: this is pure cannabis. Few strains compare to Green Crack’s sharp energy and focus as it induces an invigorating mental buzz that keeps you going throughout the day. With a tangy, fruity flavor redolent of mango, Green Crack is a great daytime strain that may help consumers fight fatigue, stress, and depression. Because the name "Green Crack" perpetuates a negative image of cannabis, some people have taken to calling this strain Cush (with a ‘C’) or Green Cush instead.`,
     type: 'Sativa',
     terpene: 'Myrcene',
     thc: 17,
@@ -294,6 +327,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 35,
     name: 'Super Silver Haze',
+    description: `Super Silver Haze is a sativa marijuana strain bred by Green House Seeds. It was the first prize winner at the High Times Cannabis Cup in 1997, 1998, and 1999. Super Silver Haze is made by crossing Skunk, Northern Lights, and Haze creates a beautiful, sticky strain that boasts an energetic, long-lasting body high. The uplifting effects are a great for high stress levels or when suffering from a lack of appetite or nausea.`,
     type: 'Sativa',
     terpene: 'Humulene',
     thc: 18,
@@ -302,6 +336,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 36,
     name: 'White Fire OG',
+    description: `White Fire OG, also known as "Wifi OG," "WiFi," "White Fire," and "WiFi Kush," is a hybrid marijuana strain known for its uplifting and cerebral effects. White Fire OG is made by crossing Fire OG and The White. This strain features notable aromas that are sour and earthy. Consumers say that White Fire OG effects are ideal for social and cretive activities without leaving you drowsy. One Leafly user notes "WiFi OG is probably my number one strain. It helps massively with my anxiety. It's a very energetic and bubbly high for me." Medical marijuana patients choose this strain to treat anxiety, depression, cancer, glaucoma, pain and appetite loss. The appearance of this strain resembles a dusty snowfall of crystals. According to growers, many phenotypes of White Fire OG exist, some with dense, barrel-like buds and others with pointed, conic formations. Growers of White Fire OG can raise their high-yielding plants indoor or outdoors with a 65-day flowering period.`,
     type: 'Hybrid',
     terpene: 'Limonene',
     thc: 21,
@@ -310,6 +345,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 37,
     name: `Lamb's Bread`,
+    description: `Lamb's Bread, also known as "Lamb's Breath," is a sativa marijuana strain known to provide energetic and uplifting effects. Lamb's Bread is a popular weed strain for medical marijuana patients looking to relieve symptoms associated with chronic stress and depression. This plant has origins in Jamaica and it is believed to have been one of Bob Marley's favorite strains. Growers say Lamb's Bread has bright green buds that are sticky and dense.`,
     type: 'Sativa',
     terpene: 'Myrcene',
     thc: 17,
@@ -318,6 +354,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 38,
     name: `Island Sweet Skunk`,
+    description: `Island Sweet Skunk is a sativa marijuana strain made by crossing Sweet Pink Grapefruit with Skunk #1. This strain is often enjoyed for its energetic and uplifting effects. Island Sweet Skunk (sometimes known as Sweet Island Skunk) offers a sweet, skunky flavor with undertones of grapefruit. This strain also comes in a CBD variety to help medical marijuana patients treat symptoms associated with chronic anxiety, inflammation and muscle spasms. Growers say Island Sweet Skunk has a flowering time of 7-8 weeks. This strain comes in buds that are green with bright yellow and orange hairs.`,
     type: 'Sativa',
     terpene: 'Myrcene',
     thc: 16,
@@ -326,6 +363,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 39,
     name: `Super Lemon Haze`,
+    description: `Super Lemon Haze, sometimes called "SLH," is a sativa-dominant hybrid marijuana strain of Lemon Skunk and Super Silver Haze and two time Cannabis Cup winner from Green House Seeds. Super Lemon Haze is a kief-caked multi-colored wonder. As the name states this strain has real lemony characteristics. The smell is zesty, citrusy, and a little sweet. As for the taste, it's everything one would expect from the namesake; tart and sweet like lemonheads candy - not quite as sharp as one might expect. The effects are uniquely energetic and lively, may not be the best strain for those of us that are naturally wound-up tight.`,
     type: 'Sativa',
     terpene: 'Linalool',
     thc: 18,
@@ -334,6 +372,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 40,
     name: `Gelato`,
+    description: `Gelato, also known as "Larry Bird" and "Gelato #42" is an evenly-balanced hybrid marijuana strain made from a crossing of Sunset Sherbet and Thin Mint Girl Scout Cookies. With its balance of indica & sativa, this strain produces a euphoric high accompanied by strong feelings of relaxation. Consumers who have smoked Gelato say the effects of the strain come on quickly. You'll be left feeling numb to pain, relaxed, but mentally stimulated and productive. As far as potency goes, Gelato boasts a THC level of 17%, making it an ideal choice for medical marijuana patients seeking relief for pain, fatigue, and insomnia. Novice consumers may want to approach this THC powerhouse with caution, but those armed with a high THC tolerance will delight in the heavy-handed effects this strain offers. In terms of taste, Gelato is sweet and features fruity and creamy flavors and aromas. According to growers, this strain produces buds that bloom in dark purple hues and are illuminated by fiery orange hairs and a shiny white coating of crystal resin.`,
     type: 'Hybrid',
     terpene: 'Caryophyllene',
     thc: 17,
@@ -342,6 +381,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 41,
     name: `Blue Dream`,
+    description: `Blue Dream is a sativa-dominant hybrid marijuana strain made by crossing Blueberry with Haze. This strain produces a balanced high, along with effects such as cerebral stimulation and full-body relaxation. Blue dream is 18% THC but has a low CBD percentage, making this potent strain a fan favorite of both novice and veteran cannabis consumers. In terms of flavor, Blue Dream is reported to smell and taste like sweet berries. Medical marijuana patients often use Blue Dream to treat symptoms of depression, chronic pain, and nausea. According to home grow enthusiasts, this strain has an average flowering time of 67 days and is best suited to grow using the Sea of Green method. Blue Dream originated in California and has since achieved legendary status among West Coast strains and has quickly become one of the most-searched-for strains in the Leafly database.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 18,
@@ -350,6 +390,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 42,
     name: `Jack Herer`,
+    description: `Jack Herer, also known as "JH," "The Jack," "Premium Jack," and "Platinum Jack" is a sativa-dominant marijuana strain that has gained as much renown as its namesake, the marijuana activist and author of The Emperor Wears No Clothes. Combining a Haze hybrid with a Northern Lights #5 and Shiva Skunk cross, Sensi Seeds created Jack Herer hoping to capture both cerebral elevation and heavy resin production. Its rich genetic background gives rise to several different variations of Jack Herer, each phenotype bearing its own unique features and effects. However, consumers typically describe this 55% sativa hybrid as blissful, clear-headed, and creative.`,
     type: 'Sativa',
     terpene: 'Pinene',
     thc: 17,
@@ -358,6 +399,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 43,
     name: `Jilly Bean`,
+    description: `Jillybean, also called "Jilly Bean," is a hybrid marijuana strain bred by crossing Orange Velvet and Space Queen. This strain promotes creativity and produces euphoric, uplifting effects. The flavor of Jillybean tastes like tangy oranges and mango. Jillybean is the ideal strain for social butterflies and anyone looking to add extra happiness to their day.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 16,
@@ -366,6 +408,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 44,
     name: `Tangie`,
+    description: `Tangie is a sativa marijuana strain made by crossing California Orange and Skunk-1. This strain is a popular choice in Amsterdam and is spreading elsewhere. Tangie is a remake of sorts of the popular version of Tangerine Dream that was sought-after in the 1990s. The citrus heritage of Tangie is the most evident in its refreshing tangerine aroma. As a plant, Tangie grows best outside, producing sticky buds that provide euphoric yet relaxed effects.`,
     type: 'Sativa',
     terpene: 'Myrcene',
     thc: 17,
@@ -374,6 +417,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 45,
     name: `Headband`,
+    description: `Headband, also known as simply "HB," is a hybrid marijuana strain and love-child of cannabis’ power couple, OG Kush and Sour Diesel. The smooth, creamy smoke is accented by flavors of lemons and diesel while the long-lasting effects are great for pain relief, helping you to relax, and to combat elevated stress levels. Many report that the effects create a slight pressure around the crown of their head and feels as though they are wearing a headband. The effects have been known to come on slow, so pace yourself with this potent hybrid.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 18,
@@ -382,6 +426,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 46,
     name: `Haze OG`,
+    description: `Haze, also known as "Original Haze," "OG Haze," "Haze OG," and "Haze Brothers," is a sativa marijuana strain. This strain provides high-energy and creative effects. Haze first took root in Santa Cruz, California during the 1960s where long growing seasons accommodated her lengthy flowering cycle. Since then, Haze has become the proud parent of countless hybrids around the globe, passing on its genetics from Colombia, Mexico, Thailand, and South India. Haze's aroma is typically characterized by a spicy scent accented by hints of citrus and earthy sweetness.`,
     type: 'Sativa',
     terpene: 'Myrcene',
     thc: 16,
@@ -390,6 +435,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 47,
     name: `Skunk One`,
+    description: `Skunk #1 is a hybrid marijuana strain that has influenced cannabis on a global scale, parenting a horde of Skunk crosses since it first bloomed in the late 1970s. Sacred Seed Co. originally bred Skunk #1 using diverse genetics from around the world; Afghani, Acapulco Gold, and Colombian Gold varieties converged through an intricate selective breeding process that spanned several generations, and finally the genetic cornerstone of countless cannabis hybrids was born.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 16,
@@ -398,6 +444,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 48,
     name: `Chocolope`,
+    description: `Chocolope, also known as "D-Line," is a popular sativa marijuana strain made by crossing Chocolate Thai with Cannalope Haze. The result is a delicious homage to the chocolate strains that were popular in the 1980s. Chocolope's hefty buds give earthy, sweet coffee flavors that provide a dreamy, cerebral effect. Consumers report a strong, euphoric mental shift that is great when coping with depression or stress.`,
     type: 'Sativa',
     terpene: 'Myrcene',
     thc: 17,
@@ -406,6 +453,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 49,
     name: `Vanilla Frosting`,
+    description: `Coming from Humboldt Seed Company, Vanilla Frosting is a cross of Humboldt Frost OG and Humboldt Gelato Bx3. Designed to improve upon the various Gelato lines from the last few years, Vanilla Frosting takes to the sky with a vigorous growth pattern. Buds grow dense with silvery green flowers that are accented by hints of purple, and the creamy smooth aroma has notes of vanilla that end with a gassy finish. Vanilla Frosting is a high-potency strain that will blast you into outer space on a funfetti adventure.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 21,
@@ -414,6 +462,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 50,
     name: `Strawberry Banana`,
+    description: `Strawberry Banana, also known as "Strawnana" for short, is an indica marijuana strain developed by DNA Genetics in collaboration with Serious Seeds. A genetic cross of Crockett’s Banana Kush and the “Strawberry” phenotype of Bubble Gum, Strawberry Banana inherited a sweet, fruity flavor, hence the name. Known for its heavy resin production and high-THC content, Strawberry Banana produces happy, peaceful effects that sharpen creativity and sensory awareness.`,
     type: 'Hybrid',
     terpene: 'Limonene',
     thc: 21,
@@ -422,6 +471,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 51,
     name: `Zkittlez`,
+    description: `Zkittlez, also known as "Skittles," "Skittlz," and "Island Skittles" is an indica marijuana strain bred from a mix of Grape Ape and Grapefruit that is crossed with another undisclosed strain. This candy-flavored strain was bred by 3rd Gen Family and Terp Hogz. Zkittlez won 1st Place at the 2016 Emerald Cup and has placed in several Cannabis Cups in San Francisco and Michigan. This strain features chunky colas that explode in a spectrum of light green hues and emit a sweet, tropical blend of fruit flavors. The effects of Zkittlez are calming, leaving consumers focused, alert, and happy while relaxing the body to help unwind any time of day.`,
     type: 'Indica',
     terpene: 'Caryophyllene',
     thc: 19,
@@ -430,6 +480,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 52,
     name: `Bruce Banner`,
+    description: `Bruce Banner, also known as "Banner" and "OG Banner," is a hybrid marijuana strain. Bruce Banner might be best known as the alter-ego of comic book hero The Incredible Hulk, but maybe he wouldn’t be such a stressed out ball of anger if he just had some of his namesake strain. This green monster also has hidden strength and features dense nugs that pack the power of very high THC content. It’s a powerful hyrbid strain whose effects come on quickly and strong and then tend to settle into a euphoric and creative buzz. The effects of this strain are most evident and linger mostly in the head, but it may also provide body relaxation that make it an appropriate daytime bud for some. Dark Horse Genetics bred this strain from OG Kush and Strawberry Diesel, and its heritage can be found in its diesel aroma with sweet undertones.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 21,
@@ -438,6 +489,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 53,
     name: `SFV OG`,
+    description: `SFV OG, also known as "San Fernando Valley OG," "San Fernando Valley Kush," and "San Fernando Valley" is a sativa-dominant hybrid marijuana strain from Cali Connection that is great for patients who need strong pain relief but don’t want to be stuck on the couch. As the name indicates, this OG Kush relative originates from California’s San Fernando Valley. Although their names are barely distinguishable, SFV OG Kush is actually the Afghani-crossed child to SFV OG. Leading with aromatic notes of earthy pine and lemon, its body effects take a little longer to feel than the initial head haziness.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 20,
@@ -446,6 +498,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 54,
     name: `Zookies`,
+    description: `Zookies is a hyrbid marijuana strain made by crosssing Animals Cookies and Original Glue. The result is a level-headed strain that is as delicious as it is potent. This strain has a unique terpene profile, aroma, and flavor of sweet nutty cookies with a hint of diesel. Zookies is a great choice for someone looking for a strong high without getting stuck in the couch.`,
     type: 'Hybrid',
     terpene: 'Caryophyllene',
     thc: 21,
@@ -454,6 +507,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 55,
     name: `Bubble Gum`,
+    description: `Bubble Gum, sometimes called "Bubba Gum," is a popular indica-dominant hybrid marijuana strain. Bubble Gum's genetics are a little unclear, but it is believed to be made from an unknown cross of Indiana Bubble Gum. This strain produces a body-numbing high that erases pain and leaves your mind somewhat stimulated. Consumers who smoke Bubble Gum often say it helps them stay alert and be creative, while others report a stoney head high. Bubble Gum is 17% THC, and its potency is deal for both new and experienced cannabis consumers. In small doses, this strain can be enjoyed throughout the day. In large doses Bubble Gum can dry out your mouth, so make sure you have adequate hydration available while you partake. This strain features a flavor profile reminiscent of its namesake, with bubble gum and sweet floral flavors bursting through. Medical marijuana patients choose Bubble Gum to relieve symptoms associated with disorders like chronic pain, nausea, stress, and depression.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 17,
@@ -462,6 +516,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 56,
     name: `Papaya`,
+    description: `Papaya is an indica-dominant hybrid cannabis strain that is known for producing a mental calmness, though many consumers also find that this strain makes them energetic and productive. Nirvana Seeds bred this to be their take on a Mango strain and crossed Citral #13 with Ice #2 to make their own fruit. They met their own challenge and Papaya smells uncannily like its namesake. The taste is similar to its tropical fruit counterpart, but a spicy, peppery side also becomes apparent. The plants stay fairly short and thin, producing lots of fluffy buds with papaya-orange hairs in 8 or 9 weeks.`,
     type: 'Indica',
     terpene: 'Myrcene',
     thc: 15,
@@ -470,6 +525,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 57,
     name: `Guava`,
+    description: `A sativa-leaning hybrid from the Cookies Fam, Guava is a Gelato phenotype. Noted for its fruity and gassy aroma and flavor, this strain is great for anyone with a sweet tooth. Guava was selected and celebrated as a good strain to start the day with, so next time you have a busy Saturday, grab this strain to make it through.`,
     type: 'Sativa',
     terpene: 'Caryophyllene',
     thc: 19,
@@ -477,7 +533,8 @@ export const Exotics: ExoticI[] = [
   },
   {
     id: 58,
-    name: `Lemonade`,
+    name: `Lemonnade`,
+    description: `Lemonnade, also known as "The Original Lemonnade" or simply "Lemonade," is a sativa-dominant hybrid marijuana strain made by crossing Lemon OG and Gorilla Haze. Lemonade tastes and smells just like freshly squeezed lemons. This strain is ideal for wake and bake enthusiasts, as Lemonade tends to make consumers feel energetic and motivated. Medical patients pick this theraputic strain for its ability to relieve anxiety, inflammation and cramping. Bred by Growing Passion, this strain produces dense, resinous buds with soft orange hairs that look beautiful against the buds light green coloration.`,
     type: 'Hybrid',
     terpene: 'Humulene',
     thc: 20,
@@ -486,6 +543,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 59,
     name: `Harlequin`,
+    description: `Harlequin is a sativa marijuana strain renowned for its reliable expression of CBD. This strain provides clear-headed effects and the ability to relax without sedation or intoxication. Harlequin is a descendant of Colombian Gold, a Nepali indica, and Thai and Swiss landrace strains. Harlequin's high levels of CBD make this strain one of the most effective strains for the treating pain and anxiety, as CBD can counteract THC’s paranoia while amplifying its painkilling properties. This strain features flavors that range from earthy musk to sweet mango.`,
     type: 'Sativa',
     terpene: 'Myrcene',
     thc: 5,
@@ -494,6 +552,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 60,
     name: `Black Jack`,
+    description: `Bred by Sweet Seeds, Black Jack is a cross of Black Domina and Jack Herer. This strain produces thick buds with huge calyxes that are completely encrusted with trichomes. It has a heavy and flavorful taste and it produces exceptionally long-lasting effects. Because of its high THC levels, Black Jack is popular among medical marijuana patients.`,
     type: 'Hybrid',
     terpene: 'Humulene',
     thc: 18,
@@ -502,6 +561,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 61,
     name: `Apple Jack`,
+    description: `Apple Jack is a hybrid marijuana strain made by crossing Jack Herer and White Widow. This potent strain provides uplifting and soothing effects. Apple Jack is ideal for medical marijuana patients and consumers managing chronic pain or nausea. This strain features a flavor profile that is skunky and earthy with undertones of sliced apple.`,
     type: 'Hybrid',
     terpene: 'Humulene',
     thc: 18,
@@ -510,6 +570,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 62,
     name: `Red Congolese`,
+    description: `While some argue that Red Congolese is an African sativa landrace, the variety popularized in California weaves in Mexican and Afghani roots, giving it a more indica-like appearance. This colorful palette of landrace strains, which had adapted to their environment over many years, creates a complex profile of effects and flavors. The sativa genetics dominate the physical effects of Red Congolese, resulting in a weightless euphoria that promotes focus and mental clarity. Its energizing properties make Red Congolese perfect for morning treatment of nausea, cachexia, tension, or Alzheimer’s.`,
     type: 'Sativa',
     terpene: 'Myrcene',
     thc: 23,
@@ -518,6 +579,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 63,
     name: `Runtz`,
+    description: `Runtz, also known as "Runtz OG," is a rare hybrid marijuana strain by Cookies. It's made by crossing Zkittlez with Gelato and is loved for its incredibly fruity flavor profile that smells just like a bag of the sugary candy we all know and love. Because of the rising popularity of this strain, it's no surprise Runtz was named Leafly Strain of the Year in 2020. Growers say this strain has resin-drenched buds that range in color from rich purple to lime green. Runtz is celebrated for its creamy smoke that is smooth and welcoming. This strain produces euphoric and uplifting effects that are known to be long-lasting.`,
     type: 'Sativa',
     terpene: 'Caryophyllene',
     thc: 19,
@@ -526,6 +588,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 64,
     name: `White Widow`,
+    description: `Among the most famous strains worldwide is White Widow, a balanced hybrid first bred in the Netherlands by Green House Seeds. A cross between a Brazilian sativa landrace and a resin-heavy South Indian indica,  White Widow has blessed every Dutch coffee shop menu since its birth in the 1990s. Its buds are white with crystal resin, warning you of the potent effects to come. A powerful burst of euphoria and energy breaks through immediately, stimulating both conversation and creativity. White Widow’s genetics have given rise to many other legends like White Russian, White Rhino, and Blue Widow. Still, many growers prefer cultivation of the original White Widow, which flowers in about 60 days indoors.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 17,
@@ -534,6 +597,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 65,
     name: `Cherry Pie`,
+    description: `Cherry Pie's parents are Granddaddy Purple and F1 Durb. With buds that are dense and full of orange hairs and a touch of purple, this hybrid strain smells of sweet and sour cherry pie. The effects have been known to come on in minutes and stick around for a couple hours.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 16,
@@ -542,6 +606,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 66,
     name: `AK 47`,
+    description: `AK-47, also known as "AK," is a sativa-dominant hybrid marijuana strain that mixes Colombian, Mexican, Thai, and Afghani varieties. Don't let its intense name fool you: AK-47 will leave you relaxed and mellow. The result is a complex blend of flavors and effects. AK-47 may deliver a steady and long-lasting cerebral buzz that will keep you mentally alert and engaged in creative or social activities. While its scent is sour and earthy, its sweet, floral notes can only be fully realized in the taste.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 16,
@@ -550,6 +615,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 67,
     name: `Fruity Pebbles`,
+    description: `FPOG, also known as "Fruity Pebbles," "Fruity Pebbles OG," and "Fruity OG," is a hybrid marijuana strain bred by Alien Genetics. FPOG was a limited-time offering from the breeder, although some new varieties may now exist. This sweet hybrid takes genetics from Green Ribbon, Granddaddy Purple, and Tahoe Alien to create a tropical, berry flavor reminiscent of the cereal. The euphoric effects of FPOG will keep you happy when you’re stressed and help you catch some sleep when faced with insomnia. Sit back, relax, and pour yourself a bowl of FPOG!`,
     type: 'Hybrid',
     terpene: 'Limonene',
     thc: 18,
@@ -558,6 +624,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 68,
     name: `Candyland`,
+    description: `Candyland, also known as "Kandyland," is a sativa marijuana strain bred from Granddaddy Purple and Bay Platinum Cookies. Golden hairs weave through Candyland’s thick coat of sugar-like trichomes and highlight the compact, camouflage-colored buds. This strain grows well indoors and out, and patients turn to Candyland when trying to moderate pain, muscle tension, and sour moods. Candyland offers uplifting and stimulating effects, making it a perfect strain for social gatherings or creative pastimes.`,
     type: 'Sativa',
     terpene: 'Caryophyllene',
     thc: 18,
@@ -566,6 +633,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 69,
     name: `XJ 13`,
+    description: `XJ-13, also known as "XJ13" and "XK Thirteen," is a hybrid marijuana strain made by crossing Jack Herer and G13 Haze. This strain is cherished for its therapeutic potency and enjoyable euphoric buzz. The effects of XJ-13 produce unencumbered cerebral effects that are perfect for stimulating creativity and conversation. As if we needed another reason to love this strain, XJ-13 consistently exhibits a strong citrus aroma accented by notes of earthy pine. Novice consumers looking for an easy, paranoia-free experience can depend on the effects of XJ-13 as a surefire way to relieve stress and mood-related symptoms.`,
     type: 'Hybrid',
     terpene: 'Humulene',
     thc: 17,
@@ -574,14 +642,16 @@ export const Exotics: ExoticI[] = [
   {
     id: 70,
     name: `ACDC`,
+    description: `ACDC is a CBD-dominant marijuana strain made from a phenotype of Cannatonic. This strain produces little to no intoxicating effects. Medical marijuana patients choose ACDC to help treat various ailments like pain, anxiety, epilepsy and the negative effects of chemotherapy.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
-    thc: 14,
-    cbd: 1,
+    thc: 1,
+    cbd: 14,
   },
   {
     id: 71,
     name: `Lava Cake`,
+    description: `Lava Cake is a powerful indica-hybrid marijuana strain made by crossing Thin Mint GSC with Grape Pie. Lava Cake produces deeply relaxing effects that ease the mind and body. This strain is ideal for after work, lazy days off, or for anyone seeking to relax. Lava Cake is widely celebrated for its deliciously sweet flavor profile that puts out exceptionally smooth and cakey terpenes. Consumers say this strain smells similar to freshly baked goods - with notes of sugary dough coming through. Medical marijuana patients choose Lava Cake for swift relief of symptoms associated with chronic pain, stress and anxiety. Growers say this strain grows in a dense, bulbous structure with rich hues of purple and green camouflaged by dense, glistening trichomes.`,
     type: 'Hybrid',
     terpene: 'Caryophyllene',
     thc: 19,
@@ -590,6 +660,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 72,
     name: `Banana Kush`,
+    description: `Banana kush is a hybrid marijuana strain made by crossing Ghost OG and Skunk Haze. The result is a strain that tastes and smells like a bushel of fresh bananas. Banana Kush tends to provide a mellow buzz alongside a relaxed sense of euphoria. A great choice when dealing with stress or depression, Banana Kush also helps stimulate your creative juices and can help you remain talkative in social settings.`,
     type: 'Hybrid',
     terpene: 'Limonene',
     thc: 18,
@@ -598,6 +669,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 73,
     name: `Triangle Kush`,
+    description: `Triangle Kush, also known as "Triangle OG" and "OG Triangle," is an indica marijuana strain that originated in Florida. This strain provides relaxing effects and is known to stimulate creativity. Some people say smoking Triangle Kush makes them extra chatty. This strain gets its name from Florida's three cannabis-producing capitals: Jacksonville, Miami, and Tampa. Growers say Triangle Kush has a flowering time of 70 days.`,
     type: 'Indica',
     terpene: 'Myrcene',
     thc: 20,
@@ -606,6 +678,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 74,
     name: `Dutch Treat`,
+    description: `Dutch Treat is a hybrid marijuana strain made by crossing Northern Lights with Haze. This strain produces cerebral effects that will leave you feeling uplifted and euphoric while reducing stress and relaxing the mind. Dutch Treat features a flavor profile that smells like sweet fruits mixed with pine and eucalyptus trees. Growers say this strain has dense, sticky buds that are pungent. Medical marijuana patients choose Dutch Treat to help relieve symptoms associated with fatigue, pain, and PMS. This strain originates from Amsterdam and is a cultural staple among the coffee shops there.`,
     type: 'Hybrid',
     terpene: 'Humulene',
     thc: 19,
@@ -614,6 +687,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 75,
     name: `MAC`,
+    description: `MAC, also known as "Miracle Alien Cookies" or simply "Miracle Cookies," is a hybrid marijuana strain made by crossing Alien Cookies with Starfighter and Columbian. MAC produces creative effects that are happy and uplifting. This strain features a smooth orange flavor that is balanced out by floral accents on a sweet, earthy finish. Growers say MAC nugs are gorgeous and covered in resin. Medical marijuana patients choose this strain to help relieve symptoms associated with stress and depression.`,
     type: 'Hybrid',
     terpene: 'Limonene',
     thc: 22,
@@ -622,6 +696,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 76,
     name: `Mimosa`,
+    description: `Mimosa, also known as "Purple Mimosa," is a hybrid marijuana strain made by crossing Clementine with Purple Punch. In small doses, this strain produces happy, level-headed effects that will leave you feeling uplifted and motivated enough to take on any mundane task. In large doses, Mimosa may make you feel sleepy and relaxed. This strain has a strong aroma and flavor that reminds you of its namesake - with notes of fruit and citrus flavors bursting through. Medical marijuana patients choose this strain to help relieve symptoms associated with depression and stress. Mimosa is a rising star in the cannabis community, so don't pass up an opportunity to enjoy this special strain.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 19,
@@ -630,6 +705,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 77,
     name: `Northern Lights`,
+    description: `Northern Lights, also known as "NL," is an indica marijuana strain made by crossing Afghani with Thai. Northern Lights produces euphoric effects that settle in firmly throughout the body, relaxing muscles and easing the mind. Consumers say this strain has a pungently sweet and spicy flavor profile that is smooth on the exhale. Medical marijuana patients choose Northern Lights to help relieve symptoms associated with depression, stress, pain and insomnia. Growers say this strain features purple and crystal-coated buds and grows best indoors with a flowering time of 45-50 days.`,
     type: 'Indica',
     terpene: 'Myrcene',
     thc: 16,
@@ -638,6 +714,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 78,
     name: `GMO Cookies`,
+    description: `GMO Cookies, also known as as "GMO Garlic Cookies" and "Garlic Cookies," is a potent indica-dominant hybrid marijuana strain made by crossing Girl Scout Cookies with Chemdawg. This strain produces a euphoric high with mentally uplifting effects. Consumers say Garlic Cookies promotes an incredible body high that leaves you feeling relaxed and free from pain. In large doses, this strain may lock you to the sofa and make you feel sedated. As a descendent from Girl Scout Cookies, you can expect louds flavors from Garlic Cookies, like a diesel aroma and a garlic-forward taste that lingers on your tastebuds. Medical marijuana patients choose this strain to help relieve symptoms associated with chronic pain, depression, and nausea. According to growers, Garlic Cookies flowers into light green, spade-shaped buds that are dusted with white trichomes and curly orange hairs. This strain was originally bred by Mamiko Seeds. If you've smoked, dabbed, or consumed Garlic Cookies (aka GMO Cookies) before, tell us about your experience by leaving a strain review.`,
     type: 'Hybrid',
     terpene: 'Limonene',
     thc: 26,
@@ -646,6 +723,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 79,
     name: `Alien OG`,
+    description: `Alien OG, also known as "Alien OG Kush," is a hybrid cross of Tahoe OG and Alien Kush. First available as a clone in California’s Bay Area and now in seed form from Cali Connection, Alien OG has the typical lemon and pine OG smell and flavor, and its intense high combines heavy body effects and a psychedelic cerebral buzz. Beginners and novices, be sure to take it slow with this heavy-hitter.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 18,
@@ -654,6 +732,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 80,
     name: `Superglue`,
+    description: `Superglue, also known as "Tacky Glue," is an indica-leaning hybrid strain that produces a functional and relaxing high to the mind and body. Smelling of pine and a sweet caramel aroma, this strain is bred by Seedism Seeds. Superglue is made by crossing Afghani and Northern Light. Those who enjoy Superglue say it relaxes you while still leaving you functional and energetic enough for social activities or even a productive afternoon.`,
     type: 'Hybrid',
     terpene: 'Caryophyllene',
     thc: 20,
@@ -662,6 +741,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 81,
     name: `North Star`,
+    description: `North Star is a sativa-dominant hybrid marijuana strain. It has an earthy taste and feel. And has also been bred into CBD variants that have very potent therapeutic effects. This strain was originally bred by Sumo Seeds.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 19,
@@ -670,6 +750,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 82,
     name: `Llama Kush`,
+    description: `Llama Kush is an indica-dominant hybrid marijuana strain. It's named after Llamas for the sole reason of memetics. It's dank, delicious with a very citrusy taste and feel. Highly recommended for any Hybrid connoisseur that enjoys a much more citrusy taste.`,
     type: 'Hybrid',
     terpene: 'Limonene',
     thc: 19,
@@ -678,6 +759,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 83,
     name: `Gorilla Punch`,
+    description: `Gorilla Punch is an evenly-balanced hybrid marijuana strain from Rev Genetics made by crossing GG4 and Clementine. Smoking this strain will boost your mood while relieving unwanted stress. Gorilla Punch has a fresh flavor profile that is floral and fruity. Medical marijuana patients choose this strain to help relieve symptoms associated with fatigue and pain.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 21,
@@ -686,6 +768,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 84,
     name: `Gorilla Glue`,
+    description: `Original Glue, also known as "Gorilla Glue," "Original Glue," "GG4," and "Gorilla Glue #4" is a potent hybrid marijuana strain that delivers heavy-handed euphoria and relaxation, leaving you feeling “glued” to the couch. Its chunky, resin-covered buds fill the room with pungent earthy and sour aromas inherited from its parent strains, Chem’s Sister, Sour Dubb, and Chocolate Diesel. Taking first place in both the Michigan and Los Angeles 2014 Cannabis Cups as well as the High Times Jamaican World Cup, this multiple award-winning hybrid's supremacy is no longer a secret, and consumers will search far and wide to get their hands sticky with Original Glue (GG4).`,
     type: 'Hybrid',
     terpene: 'Humulene',
     thc: 4,
@@ -694,6 +777,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 85,
     name: `Animal Cookies`,
+    description: `Animal Cookies, also known as "Animal Crackers," is a hybrid marijuana strain made by crossing two legendary strains, GSC and Fire OG. This clone-only strain flowers in 9-10 weeks and grows dense, frosty green buds tipped with purple. True to its name, Animal Cookies has a sweet, sour aroma with heavy full-body effects that will impress any veteran consumer. This potent medicine might be overkill for mild symptoms, but its ability to obliterate severe pain and insomnia is unprecedented.`,
     type: 'Hybrid',
     terpene: 'Caryophyllene',
     thc: 18,
@@ -702,6 +786,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 86,
     name: `Purple Lamborghini`,
+    description: `Purple Lamborghini is a hybrid marijuana strain. Highly potent and named after Lambos for memetic reasons. It looks sort of like Purple Kush but is fairly more potent in terms of THC content to Purple Kush. If you like lambos and Purple Kush, we highly recommend this dank exotic.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 21,
@@ -710,6 +795,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 87,
     name: `Key Lime Pie`,
+    description: `Key Lime Pie, also known as "Key Lime Cookies" and "Key Lime GSC," is a hybrid marijuana strain and a phenotype of Girl Scout Cookies. This strain produces relaxing body effects that help to relieve chronic pain and insomnia. Key Lime Pie is beloved for its strong indica characteristics and heavy resin production. This strain features flavors of lime candy, mint, and spice. Upon exhale, you'll notice flavors that are earthy and chocolatey. The buds of Key Lime Pie regularly show traces of purple hues due to the plant’s affinity towards colder temperatures.`,
     type: 'Hybrid',
     terpene: 'Caryophyllene',
     thc: 19,
@@ -718,6 +804,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 88,
     name: `Blackberry OG`,
+    description: `Emerald Triangle Seeds bred Blackberry OG CBD by taking the best Black Domina they could find and crossing it with Very Berry, their own Lost Coast OG, and a CBD Sativa. It puts out a sweet-smelling aroma that ranges from fruit and berries to sweet candy. Alongside its fruity terpene profile, dense lime green buds offer a well-rounded and enticing high.`,
     type: 'Hybrid',
     terpene: 'Pinene',
     thc: 15,
@@ -726,6 +813,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 89,
     name: `Blue Tahoe`,
+    description: `Blue Tahoe, also known as Blueberry Tahoe and Blue Tahoe OG, is a cross of Blueberry and Tahoe OG Kush from New420Guy Seeds. This strain holds a blueberry flavor in addition to earthy OG accents from its Kush-influenced genetics. Blue Tahoe can provide a good mid-level experience, making it great for novices and veterans alike.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 20,
@@ -734,6 +822,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 90,
     name: `Golden Goat`,
+    description: `Golden Goat was created by accident in Topeka, Kansas, when a male Hawaiian-Romulan pollinated Mr. Dank's Island Sweet Skunk. The scent is described as being a combination of sweet, sour, and spicy, with a tropical fruit flavor. Its full-body effects provide a delightful rush of euphoria and creative spark. Golden Goat's flowering time is 9 to 11 weeks, with a golden appearance closer to harvest.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 19,
@@ -742,6 +831,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 91,
     name: `Black Roses`,
+    description: `Black Roses by Red Dirt Ridge Genetics is a heavy, one-hitter-quitter indica designed for the seasoned cannabis consumer. This cross of Grand Reserve Headband and Early Girl reeks of sweet citrus and funky fuel, intoxicating the sense even before combustion. Its effects lay into the body, evaporating stress from the mind while cementing the consumer to the couch. This heavy indica is a perfect end-of-the-day strain to wash away stress and worries or to frontload sleep with sedative cannabinoids.`,
     type: 'Indica',
     terpene: 'Myrcene',
     thc: 25,
@@ -750,6 +840,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 92,
     name: `Nuclear Cookies`,
+    description: `Nuclear Cookies is a new creation from Arizona Natural Selections. This 50/50 hybrid is the genetic offspring  of Chernobyl and Girl Scout Cookies, and offers a sweet, citrusy fragrance and a rich, earthy taste. Its aroma lingers after consumption, blanketing the consumer in its pungent terpene profile. This strain’s uplifting and relaxing full-body effects are coupled with pleasant euphoria, making this strain enjoyable and workable throughout the day. Consumers looking to ease stress, pain, and nausea may find the relief they seek in this odoriferous cannabis cut.`,
     type: 'Hybrid',
     terpene: 'Limonene',
     thc: 22,
@@ -758,6 +849,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 93,
     name: `Purple Haze`,
+    description: `Purple Haze is a sativa marijuana strain popularized by Jimi Hendrix’s 1967 classic song, Purple Haze. This strain delivers a dreamy burst of euphoria that brings veteran consumers back to their psychedelic heyday. This nostalgic sativa staple remains cherished for its high energy cerebral stimulation that awakens creativity and blissful contentment throughout the day. Purple Haze is believed to have descended from parent strains Purple Thai and Haze, which pass on a mix of sweet and earthy flavors underscored by notes of berry and sharp spice. Purple Haze buds typically acquire vibrant hues of lavender that further justify the naming of this strain.`,
     type: 'Sativa',
     terpene: 'Myrcene',
     thc: 17,
@@ -766,6 +858,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 94,
     name: `Galactic Jack`,
+    description: `Galactic Jack is a soaring sativa-dominant hybrid that is out of this world. By crossing the universally appreciated Jack Herer with the interstellar royalty of Space Queen, Heroes of the Farm Genetics developed an energetic strain that is great for staying productive. Galactic Jack provides an aroma of sweet lemons mixed with flavors of skunky grapefruit and effects best described as uplifting and carefree.`,
     type: 'Sativa',
     terpene: 'Myrcene',
     thc: 18,
@@ -774,6 +867,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 95,
     name: `Blue God`,
+    description: `Blue God, bred by Jordan of the Islands in Canada, is a powerful indica mothered by God Bud and Blueberry. Fulfilling all of our indica expectations, Blue God produces crushing full-body effects ideal for nighttime treatment of pain and sleep disorders. With age, Blue God develops a sweet berry aroma and deep purple leaves freckled in frosty resin. Cultivators of this stout indica suggest growing Blue God as a multi-branch plant in soil, with a flowering period between 55 and 60 days.`,
     type: 'Indica',
     terpene: 'Caryophyllene',
     thc: 16,
@@ -782,6 +876,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 96,
     name: `White Lotus`,
+    description: `White Lotus by Bodhi Seed gets its frosting of trichomes from its mother, The White, while the father, Snow Lotus, works to increase size, cannabinoid profile, and overall potency of this strain. The tart, citrus aroma and flavors of lemon and hash draw you in while the relaxing indica effects will help to curb bouts of depression and insomnia.`,
     type: 'Hybrid',
     terpene: 'Caryophyllene',
     thc: 19,
@@ -790,6 +885,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 97,
     name: `Banana Cream OG`,
+    description: `Banana Cream OG, also known as "Banana Cream," is a hybrid marijuana strain grown by Vagrant Hill Farms of Forest Grove, Oregon. This strain is a hybrid cross of Blue Dream, Banana OG, and Ocean Beach OG. It emits strong notes of orange and spearmint, and expresses tight lime green buds. Not much more is known about this strain other than its heavy, OG-forward effects that lay into the body and gain weight with continued consumption.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 29,
@@ -798,6 +894,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 98,
     name: `Silverback Gorilla`,
+    description: `Silverback Gorilla, also known as "Silver Gorilla," is an indica marijuana strain made from a cross between Grape Ape and Super Silver Haze. For the first time, Dian Fossey isn’t the only person able to enjoy life with the gorillas. For those struggling with insomnia and stress, Silverback Gorilla is a must-try strain. While typically gentle and relaxed, this indica can pack a punch. Fast-acting and hard-hitting, the potency of Silverback Gorilla may come as a surprise. Silverback Gorilla is strictly for nighttime consumption. This strain features a musky, piney aroma similar to a morning walk in the forest, this strain provides a truly relaxing experience. While this Silverback isn’t endangered, it is slightly uncommon, making it potentially difficult to find but well worth the trek.`,
     type: 'Indica',
     terpene: 'Myrcene',
     thc: 18,
@@ -806,6 +903,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 99,
     name: `Martian Candy`,
+    description: `Martian Candy (also known as Martian Candy OG) is a indica-dominant hybrid with an aroma that is out of this world. This strain smells rich with herbaceous notes and just a hint of eucalyptus. It leans heavily on the body, lowering the eyes immediately after the first puff. Its strong body buzz expands gradually, relaxing the limbs to the point of sedation with continued use. Martian Candy is ideal for patients suffering from stress, anxiety, PTSD, and nausea.`,
     type: 'Hybrid',
     terpene: 'Myrcene',
     thc: 22,
@@ -814,6 +912,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 100,
     name: `Jungle Juice`,
+    description: `Bred by Golden State Genetics, Jungle Juice is a hybrid strain that crosses Animal Cookies and their in-house Tangie male. Balancing sweet and sour citrus flavors, this strain offers a flavorful release from stress, sleeplessness, and pain.`,
     type: 'Hybrid',
     terpene: 'Limonene',
     thc: 11,
@@ -822,6 +921,7 @@ export const Exotics: ExoticI[] = [
   {
     id: 101,
     name: `Subway Scientist`,
+    description: `Subway Scientist high potency THC dried bud is hand-groomed and greenhouse-grown in Leamington, Ontario. RIFF dried bud is expertly grown and cured for maximum flavour and enjoyability. This indica-dominant strain has dark green tones and purple highlights. Subway Scientist has a balance of native terpene flavours including Caryophyllene, Myrcene and Humulene. This aromatic strain is flavourful with notable hits of grape and sweet berries.`,
     type: 'Indica',
     terpene: 'Myrcene',
     thc: 20,
