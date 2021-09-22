@@ -36,6 +36,10 @@ export const ScheduleNuggetsStyles = styled.div`
                 font-weight: 400;
                 font-weight: bold;
             }
+
+            @media(max-width: 768px) {
+                width: 100%;
+            }
         }
     }
 `;

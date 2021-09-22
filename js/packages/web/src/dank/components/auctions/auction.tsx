@@ -20,6 +20,10 @@ export const AuctionStyles = styled.div`
         display: flex;
         padding: 30px;
 
+        @media (max-width: 1200px) {
+            flex-direction: column;
+        }
+
         img {
             width: 180px;
             height: 180px;
@@ -28,8 +32,18 @@ export const AuctionStyles = styled.div`
             margin: 0 30px 0 0;
         }
 
+        @media (max-width: 640px) {
+            img {
+                margin: 30px auto;
+            }
+        }
+
         div.text {
             padding: 15px;
+
+            @media (max-width: 640px) {
+                padding: 0px;
+            }
 
             h2 {
                 font-size: 32px;
@@ -45,6 +59,12 @@ export const AuctionStyles = styled.div`
                 padding: 15px 0 5px 0;
             }
 
+            @media (max-width: 640px) {
+                h3.hide-mobile {
+                    display: none;
+                }
+            }
+
             h4 {
                 font-size: 32px;
                 font-weight: 400;
@@ -53,11 +73,19 @@ export const AuctionStyles = styled.div`
 
             div.info {
                 display: flex;
-                align-items; center;
+                align-items: center;
+
+                @media (max-width: 640px) {
+                    flex-wrap: wrap;
+                }
 
                 div.infoc {
                     width: calc(100% / 3);
                     padding: 15px 0;
+
+                    @media (max-width: 640px) {
+                        width: 100%;
+                    }
 
                     h3 {
                         font-size: 18px;
@@ -86,6 +114,10 @@ export const AuctionStyles = styled.div`
                 height: 2px;
                 background: white;
                 margin: 0 0 15px 0;
+
+                @media (max-width: 640px) {
+                    width: 180px;
+                }
             }
 
             div.traits {
@@ -258,7 +290,7 @@ export function AuctionComponent({ auction, loading, setAuction, setLoading }: A
                     {
                         connected ?
                         <>
-                            <h3>Bid on this Dank Nugget</h3>
+                            <h3 className="hide-mobile">Bid on this Dank Nugget</h3>
                             <AuctionInput auction={auctionHook} minPrice={minPrice} ended={ended}/>
                         </>
                         : ''

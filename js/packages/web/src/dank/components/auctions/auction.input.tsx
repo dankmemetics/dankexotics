@@ -17,6 +17,11 @@ export const AuctionInputStyles = styled.div`
     width: 100%;
     padding: 15px 0;
 
+    @media (max-width: 640px) {
+        display: none;
+    }
+
+
     img.currency {
         border: none !important;
         border-radius: 0 !important;

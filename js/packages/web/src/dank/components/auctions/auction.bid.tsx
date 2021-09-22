@@ -20,9 +20,10 @@ export const AuctionBidStyles = styled.div`
     div.address {
         display: flex;
         align-items: center;
-        width: calc(100% - 300px);
+        width: calc(100% - 150px);
         height: 100%;
         padding: 0 10px;
+        overflow: hidden;
 
         p.label {
             font-size: 12px !important;
@@ -35,10 +36,10 @@ export const AuctionBidStyles = styled.div`
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        width: 300px;
+        width: 150px;
         height: 100%;
         font-size: 14px;
-        padding: 0 10px;
+        padding: 0 10px 0 0;
 
         img.currency {
             width: 24px;

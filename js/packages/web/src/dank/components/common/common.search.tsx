@@ -35,6 +35,10 @@ export const SearchStyles = styled.div`
         font-weight: 600;
         font-size: 14px;
         padding: 15px 0;
+
+        &.mod-padding {
+          padding: 15px 0 0 0;
+        }
       }
 
       div.checkboxes {
@@ -87,6 +91,27 @@ export const SearchStyles = styled.div`
             margin: 0 15px 0 0;
           }
         }
+      }
+    }
+  }
+
+  div.range-input {
+    display: flex;
+    align-items: center;
+
+    div.input {
+      p {
+        font-size: 11px;
+        padding: 5px 0;
+      }
+      input {
+        width: 50px;
+        height: 24px;
+        border-radius: 5px;
+        padding: 0 0 0 5px !important;
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
       }
     }
   }
@@ -159,24 +184,45 @@ export function SearchComponent({
         </div>
 
         <div className="options-section">
-          <p>THC Potency</p>
-          <RangeInput
-            onChange={value => {
-              setThc(value);
-            }}
-            value={thc}
-            trackStyle={[{ background: Primary }]}
-            style={{ margin: '0 0 30px 0' }}
-          />
-          <p>CBD Potency</p>
-          <RangeInput
-            onChange={value => {
-              setCbd(value);
-            }}
-            value={cbd}
-            trackStyle={[{ background: Primary }]}
-            style={{ margin: '0 0 15px 0' }}
-          />
+          <p className="mod-padding">THC Potency</p>
+          <div className="range-input">
+            <div className="input">
+              <p>Min</p>
+              <input type="number" min={0} max={100} value={thc[0]} onChange={e => setThc([parseInt(e.target.value), thc[1]])}/>
+            </div>
+            <RangeInput
+              onChange={value => {
+                setThc(value);
+              }}
+              value={thc}
+              trackStyle={[{ background: Primary }]}
+              style={{ margin: '0 15px', padding: '20px 0 0 0' }}
+            />
+            <div className="input">
+              <p>Max</p>
+              <input type="number" min={0} max={100} value={thc[1]} onChange={e => setThc([thc[0], parseInt(e.target.value)])}/>
+            </div>
+          </div>
+
+          <p className="mod-padding">CBD Potency</p>
+          <div className="range-input">
+              <div className="input">
+                <p>Min</p>
+                <input type="number" min={0} max={100} value={cbd[0]} onChange={e => setCbd([parseInt(e.target.value), cbd[1]])}/>
+              </div>
+              <RangeInput
+                onChange={value => {
+                  setCbd(value);
+                }}
+                value={cbd}
+                trackStyle={[{ background: Primary }]}
+                style={{ margin: '0 15px', padding: '20px 0 0 0' }}
+              />
+              <div className="input">
+                <p>Max</p>
+                <input type="number" min={0} max={100} value={cbd[1]} onChange={e => setCbd([cbd[0], parseInt(e.target.value)])}/>
+              </div>
+          </div>
         </div>
 
       </div>

@@ -64,7 +64,7 @@ export const HeaderStyles = styled.div`
         padding: 2.5px 5px 0 10px;
       }
 
-      @media (max-width: 1023px) {    
+      @media (max-width: 1200px) {    
         img {
           width: 42px;
         }
@@ -85,7 +85,7 @@ export const HeaderStyles = styled.div`
       width: 70px;
       height: 100%;
 
-      @media (min-width: 1023px) {    
+      @media (min-width: 1200px) {    
         display: none;
       }
     }
@@ -109,7 +109,7 @@ export const HeaderStyles = styled.div`
         font-family: Montserrat;
         margin: 0 0 0 15px;
 
-        @media (max-width: 1023px) {  
+        @media (max-width: 1200px) {  
           margin: 10px 15px;
         }
       }
@@ -140,7 +140,7 @@ export const HeaderStyles = styled.div`
         }
       }
 
-      @media (max-width: 1023px) {    
+      @media (max-width: 1200px) {    
         display: none;
         background: ${Gradient2};
         position: absolute;
@@ -151,7 +151,7 @@ export const HeaderStyles = styled.div`
         align-items: flex-start;
         height: auto;
         width: 100%;
-        padding: 15px 0 0 0;
+        padding: 15px;
 
         a.item {
           width: 100%;

@@ -27,8 +27,22 @@ export const AuctionsCardStyles = styled.div`
         border-radius: 50%;
     }
 
+    @media (max-width: 640px) {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+
+        img {
+            margin: 15px auto;
+        }
+    }
+
     div.text {
         width: calc(100% - 210px);
+
+        @media (max-width: 640px) {
+            width: 100%;
+        }
 
         h3 {
             font-size: 16px;
@@ -86,6 +100,10 @@ export const AuctionsCardStyles = styled.div`
         div.bid {
             padding: 5px;
 
+            @media (max-width: 640px) {
+                padding: 5px 5px 60px 5px;
+            }
+
             p.label {
                 font-size: 14px;
                 font-weight: bold;
@@ -124,6 +142,10 @@ export const AuctionsCardStyles = styled.div`
             font-size: 18px;
             font-weight: bold;
             cursor: pointer;
+
+            @media (max-width: 640px) {
+               bottom: 15px;
+            }
         }
     }
 `;
