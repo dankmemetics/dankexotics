@@ -19,6 +19,7 @@ import { Profile } from './dank/profile';
 import { Auctions } from './dank/auctions';
 import { Nugget } from './dank/nugget';
 import { Auction } from './dank/auction';
+import { Schedule } from './dank/schedule';
 
 export function Routes() {
   return (
@@ -60,6 +61,7 @@ export function Routes() {
               path="/auction/:id/billing"
               component={() => <BillingView />}
             />
+            <Route path="/schedule" component={() => <Schedule />} />
             <Route path="/auctions/:id" component={() => <Auction/>}/>
             <Route path="/auctions" component={() => <Auctions />} />
             <Route path="/profile" component={() => <Profile />} />

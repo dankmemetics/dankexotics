@@ -155,6 +155,18 @@ export function IndexProfile() {
     return(
         <IndexProfileStyles>
             <div className="wrap">
+                <div className="card-text">
+                    <h3>Show off your Dankest Kush</h3>
+                    <p>
+                        Already have Dank Exotics? Share your profile with others and show off your rarest and dankest kush to all your friends.
+                    </p>
+                    <Link to="/profile">
+                        <a className="button">
+                            View Profile
+                        </a>
+                    </Link>
+                </div>
+
                 <div className="graphic">
                     <h3>6tUdEfy7uiGYHoLFQwSWdBwtYsDhSKj8ZJgcTtb4gktd</h3>
                     <h4>has 420 dank exotic nuggets</h4>
@@ -182,17 +194,6 @@ export function IndexProfile() {
                     </div>
 
                     <div className="accent long"/>
-                </div>
-                <div className="card-text">
-                    <h3>Show off your Dankest Kush</h3>
-                    <p>
-                        Already have Dank Exotics? Share your profile with others and show off your rarest and dankest kush to all your friends.
-                    </p>
-                    <Link to="/profile">
-                        <a className="button">
-                            View Profile
-                        </a>
-                    </Link>
                 </div>
             </div>
         </IndexProfileStyles>

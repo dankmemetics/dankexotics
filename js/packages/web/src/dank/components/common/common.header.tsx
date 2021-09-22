@@ -9,6 +9,7 @@ import { CgMenu } from 'react-icons/cg';
 import { FaRegAddressCard } from 'react-icons/fa';
 import { BiStoreAlt } from 'react-icons/bi';
 import { GiSecretBook } from 'react-icons/gi';
+import { BsCalendar } from 'react-icons/bs';
 
 import { Gradient2 } from '../brand/brand.gradients';
 
@@ -54,13 +55,13 @@ export const HeaderStyles = styled.div`
       letter-spacing: 1px;
 
       img {
-        width: 48px;
+        width: 32px;
       }
 
       h2 {
-        font-size: 32px;
+        font-size: 24px;
         font-weight: 400;
-        padding: 2.5px 15px 0 15px;
+        padding: 2.5px 5px 0 10px;
       }
 
       @media (max-width: 1023px) {    
@@ -117,10 +118,10 @@ export const HeaderStyles = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0 15px;
+        padding: 0 10px;
         height: 100%;
         color: white;
-        font-size: 18px;
+        font-size: 16px;
         cursor: pointer;
         text-decoration: none;
 
@@ -199,6 +200,12 @@ export function Header({ tab }) {
             <a className={`item ${tab === 'dankpedia' ? 'active' : ''}`}>
               <GiSecretBook className="icon"/>
               Dankpedia
+            </a>
+          </Link>
+          <Link to="/schedule">
+            <a className={`item ${tab === 'schedule' ? 'active' : ''}`}>
+              <BsCalendar className="icon"/>
+              Schedule
             </a>
           </Link>
           <Link to="/auctions">
